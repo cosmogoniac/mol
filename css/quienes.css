@@ -1,0 +1,39 @@
+.separacion { flex-basis: 80%; margin: 1em 0; }
+
+.statis { margin-bottom: 2em; }
+
+.tabla { background-color: #f0f0f0; border: 1px solid #c01f39; flex-basis: 40%; font-size: 1em; padding: 1em; }
+
+.tabla .tit h3 { font-size: 1em; }
+
+.tabla .tres { border-top: 1px solid #bbb; display: flex; font-size: 0.9em; line-height: 2em; }
+
+.tabla div:nth-child(2n+1):not(.tit) { background-color: rgba(192, 31, 57, 0.4); }
+
+.tabla .tres > span:first-child { flex-basis: 50%; }
+
+.tabla .tres:nth-child(2) { font-size: 1.2em; font-weight: bold; }
+
+.tabla .tres .annee { flex-basis: 25%; text-align: right; }
+
+.tableau { background-color: #eee; border: 1px solid #c01f39; flex-basis: 40%; line-height: 1.5em; margin: 0 1em; padding: 1em; }
+
+.equivalencias .tableau { margin: 1em; }
+
+.tableau .biparrafo { padding: 0.3em; }
+
+.tableau .biparrafo .completo { background-color: rgba(192, 31, 57, 0.8); color: white; flex-basis: 100%; text-align: center; text-shadow: 1px 1px 1px black; }
+
+.tableau .biparrafo:nth-child(odd) { background-color: rgba(192, 31, 57, 0.4); }
+
+.equivalencias .tableau .biparrafo:nth-child(odd) { background-color: transparent; }
+
+.tableau .biparrafo .annee, .tabla .tres .annee { color: #555; font-size: 0.8em; font-style: italic; }
+
+.tableau h3 { border-bottom: 1px solid #c01f39; font-size: 1.2em; padding-bottom: 1em; }
+
+.tarifas .tableau .biparrafo .annee, .tabla .tres .annee { font-style: normal; }
+
+.tarifas .parrafo p { text-align: center; }
+
+@media all and (max-width: 60em) { .tabla, .tableau { flex-basis: 100%; margin-top: 1em; } }

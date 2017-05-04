@@ -1,0 +1,113 @@
+					<div class="separacion"><span class="mid"><span class="line"></span></span><span class="lit">Mañanas</span><span class="mid"><span class="line"></span></span></div>
+					<div class="mananas">
+						<ul class="rutas ruta1">
+							<li><strong>8:00</strong>Vía Ibérica, 33</li>
+							<li><strong>8:05</strong>Asín y Palacios (P. Bus frente Iglesia Santa Mónica)</li>
+							<li><strong>8:07</strong>Condes de Aragón (Centro Salud P.Bus 42)</li>
+							<li><strong>8:09</strong>Condes de Aragón / Vía Hispanidad.</li>
+							<li><strong>8:11</strong>Vía Hispanidad (Clínica Montpellier. P. Bus 40)</li>
+							<li><strong>8:13</strong>Avda. Gómez Laguna, 25</li>
+							<li><strong>8:18</strong>Plaza San Francisco (bar Nevada)</li>
+							<li><strong>8:23</strong>Gran Vía ( esquina C/ Royo)</li>
+							<li><strong>8:27</strong>Pº Pamplona / Bilbao</li>
+							<li><strong>8:30</strong>Pº Mª Agustín (Edificio Ebrosa)</li>
+							<li><strong>8:40</strong>Pablo Ruiz Picasso (Policía local)</li>
+						</ul>
+						<ul class="rutas ruta2">
+							<li><strong>8:10</strong>Avda. América (puerta mercadillo).</li>
+							<li><strong>8:13</strong>Pº Cuellar, 39.</li>
+							<li><strong>8:16</strong>Tenor Fleta, 42-44</li>
+							<li><strong>8:19</strong>Puente Virrey (P. Bus frente CAI).</li>
+							<li><strong>8:21</strong>Pza. Reina Sofía 1.</li>
+							<li><strong>8:25</strong>Cº Caspe, 66 (Tienda San Carlos).</li>
+							<li><strong>8:31</strong>Jorge Cocci (P. Bus 30).</li>
+							<li><strong>8:35</strong>Asalto (P. Bus delante murallas).</li>
+							<li><strong>8:38</strong>Plaza San Miguel (P. Bus).</li>
+							<li><strong>8:43</strong>Pº Echegaray y Caballero (Club Náutico).</li>
+						</ul>
+						<ul class="rutas ruta3">
+							<li><strong>8:00</strong>Via Univérsitas, 19 (Edificio Telefónica).</li>
+							<li><strong>8:03</strong>Plaza Roma (Pardon).</li>
+							<li><strong>8:06</strong>Santander, 7-9.</li>
+							<li><strong>8:10</strong>Av. Goya / Torres Morales.</li>
+							<li><strong>8:12</strong>Av. Tenor Fleta, 8.</li>
+							<li><strong>8:14</strong>Pº Sagasta (delante Inst. Francés).</li>
+							<li><strong>8:18</strong>Leon XIII, 5.</li>
+							<li><strong>8:22</strong>Cesareo Alierta, 20.</li>
+							<li><strong>8:26</strong>Marqués de la Cadena (P.Bus delante piscinas).</li>
+							<li><strong>8:30</strong>Marqués de la Cadena (Pza. Mozart).</li>
+							<li><strong>8:33</strong>Salvador Allende (P. Bus El Arbol).</li>
+							<li><strong>8:38</strong>Salvador Allende / Calle Somport.</li>
+						</ul>
+						<ul class="rutas ruta4">
+							<li><strong>8:00</strong>Ilustración, 35.</li>
+							<li><strong>8:01</strong>Tchakovsky / Eduard Grieg.</li>
+							<li><strong>8:07</strong>Hispanidad, 59.</li>
+							<li><strong>8:11</strong>Hispanidad, 80</li>
+							<li><strong>8:14</strong>Hispanidad, 120 (Lidl).</li>
+							<li><strong>8:20</strong>Lagos de Coronas / Lagos de Millares.</li>
+							<li><strong>8:22</strong>Ibón de Plan / Cº Pilón.</li>
+							<li><strong>8:27</strong>Pº Lagos del Alba / Ibón de la Solana.</li>
+							<li><strong>8:32</strong>Avda. Navarra (Mercadillo).</li>
+							<li><strong>8:35</strong>Puerta Sancho (Bar Alameda).</li>
+							<li><strong>8:40</strong>Pza. Europa (P. Bus).</li>
+						</ul>
+					</div>
+						<div class="separacion"><span class="mid"><span class="line"></span></span><span class="lit">Tardes</span><span class="mid"><span class="line"></span></span></div>
+					<div class="tardes">
+						<ul class="rutas ruta1 active">
+							<li><strong>16:55</strong>Salida del Lycée</li>
+							<li><strong>17:00</strong>Pablo Ruíz Picasso (delante de Correos) 17:00</li>
+							<li><strong>17:07</strong>Pº Mª Agustín, 7</li>
+							<li><strong>17:10</strong>Pº Pamplona / Dr. Cerrada</li>
+							<li><strong>17:13</strong>Gran Vía / Dr. Cerrada.</li>
+							<li><strong>17:15</strong>Plaza San Francisco (bar Nevada)</li>
+							<li><strong>17:21</strong>Condes de Aragón (frente al colegio)</li>
+							<li><strong>17:25</strong>Avda. Gómez Laguna, 22</li>
+							<li><strong>17:27</strong>Vía Hispanidad (Clínica Montpellier. P. Bus 40)</li>
+							<li><strong>17:30</strong>Vía Ibérica, 33</li>
+						</ul>						
+						<ul class="rutas ruta2">
+							<li><strong>16:55</strong>Salida del Lycée</li>
+							<li><strong>17:00</strong>Pº Echegaray y Caballero (Rte. Hispanidad).</li>
+							<li><strong>17:01</strong>San Vicente de Paúl esquina C/ Mayor.</li>
+							<li><strong>17:03</strong>San Vicente de Paúl, 5.</li>
+							<li><strong>17:07</strong>Asalto esquina Cantín y Gamboa.</li>
+							<li><strong>17:14</strong>Cº Caspe, 66 (Tienda San Carlos).</li>
+							<li><strong>17:17</strong>Cº Caspe (esquina Jorge Cocci).</li>
+							<li><strong>17:20</strong>Avda. San José, 54.</li>
+							<li><strong>17:21</strong>Avda. San José (esquina Cesareo Alierta).</li>
+							<li><strong>17:25</strong>Avda. San José (esquina Tenor Fleta).</li>
+							<li><strong>17:29</strong>Lapuyade (esquina Ntra. Sra. Del Agua).</li>
+							<li><strong>17:30</strong>Pº Cuellar (esquina Maestro Estremiana).</li>
+							<li><strong>17:33</strong>Pº Cuellar (esquina Pº Canal).</li>
+						</ul>
+						<ul class="rutas ruta3">
+							<li><strong>16:55</strong>Salida del Lycée</li>
+							<li><strong>17:03</strong>Salvador Allende / Somport.</li>
+							<li><strong>17:06</strong>Salvador Allende (Panishop).</li>
+							<li><strong>17:09</strong>Marques de la Cadena / Pza. Mozart.</li>
+							<li><strong>17:12</strong>Marques de la Cadena (frente piscinas).</li>
+							<li><strong>17:16</strong>Cº Torres (Ht. Bostón).</li>
+							<li><strong>17:18</strong>Cº Torres / Pza. Schweitzer.</li>
+							<li><strong>17:23</strong>Avda. Goya / Sagasta (frente Tolosana).</li>
+							<li><strong>17:28</strong>Avda. Goya (Pasaje Goya).</li>
+							<li><strong>17:33</strong>Santander, 14.</li>
+							<li><strong>17:35</strong>Pza. Roma (Mercadona).</li>
+							<li><strong>17:38</strong>Via Univérsitas, 19 (Frente Edificio Telefónica).</li>
+						</ul>
+						<ul class="rutas ruta4">
+							<li><strong>16:55</strong>Salida del Lycée</li>
+							<li><strong>17:00</strong>Pza. Europa (P.Bus)</li>
+							<li><strong>17:03</strong>Puerta Sancho /Pablo Gargallo (CAI).</li>
+							<li><strong>17:06</strong>Avda. Navarra (Mercadillo).</li>
+							<li><strong>17:14</strong>Urbanización Vista Bella.</li>
+							<li><strong>17:16</strong>Lagos de Coronas / Lagos de Millares.</li>
+							<li><strong>17:23</strong>Pº Lagos del Alba / Ibón de la Solana.</li>
+							<li><strong>17:28</strong>Hispanidad, 120 (Lidl).</li>
+							<li><strong>17:30</strong>Hispanidad, 83.</li>
+							<li><strong>17:34</strong>Hispanidad, 59.</li>
+							<li><strong>17:45</strong>Tchakovsky / Eduard Grieg.</li>
+							<li><strong>17:48</strong>Ilustración, 35.</li>
+						</ul>
+					</div>

@@ -1,0 +1,69 @@
+	.razones {
+		counter-reset: li-counter;
+	}
+	.razon {
+		border: 1px solid #c01f39;
+		color: #777;
+		flex-basis: 40%;
+		font-size: 1em;
+		padding: 2em;
+	}
+	.razon h3 span::before {
+	    content: counter(li-counter, decimal) " ";
+	    counter-increment: li-counter;
+	}
+	.razon h3 {
+	    color: #333333;
+	    font-size: 1.4em;
+	}
+	.razon li {
+	    list-style: inside none disc;
+	    margin-top: 1em;
+	}	
+	.razon span {
+		border-radius: 50%;
+	    display: inline-block;
+	    font-size: 1.4em;
+	    margin: auto 0.6em auto auto;
+	    text-align: center;
+	    width: 43px;
+	}
+
+@media all and (max-width: 80em) {
+	.razon h3{
+		font-size:1.1em;
+	}
+}
+@media all and (max-width: 76em) {
+	section{
+		margin-right:2%;
+	}
+	section,.razon{
+		font-size:1em;
+	}
+
+	.razones{
+		padding:0 1em;
+	}
+}
+@media all and (max-width: 62em) {}
+@media all and (max-width: 60em) {
+	.razon{
+		flex-basis:100%;
+	}	
+}
+@media all and (max-width: 58em) {}
+@media all and (max-width: 54em) {}
+@media all and (max-width: 46em) {}
+@media all and (max-width: 32em) {}
+@media all and (max-width: 26em) {}
+@media all and (max-width: 22em) {}
+// @media all and (max-width: 80em) {}
+// @media all and (max-width: 70em) {}
+// @media all and (max-width: 62em) {}
+// @media all and (max-width: 60em) {}
+// @media all and (max-width: 54em) {}
+// @media all and (max-width: 46em) {}
+// @media all and (max-width: 32em) {}
+// @media all and (max-width: 26em) {}
+// @media all and (max-width: 22em) {}

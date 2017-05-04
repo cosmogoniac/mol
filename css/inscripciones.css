@@ -1,0 +1,57 @@
+figcaption { font-size: 0.6em; text-align: center; }
+
+form { display: flex; flex-flow: row wrap; justify-content: space-around; flex-basis: 100%; }
+
+form h3 { font-size: 1.3em; }
+
+form div input:not([type="submit"]), textarea { background-color: #f2f2f2; font-size: 1em; height: 3em; margin-bottom: 1em; width: 98%; }
+
+form .limpiar, .enviar { font-size: 1em; }
+
+form.inscripcion div { flex-basis: 47%; margin-left: 1em; }
+
+form .alumno, form .progenitor { -moz-box-direction: normal; -moz-box-orient: vertical; display: flex; flex-flow: column wrap; }
+
+form.inscripcion div.envio { display: flex; flex-basis: 100%; justify-content: flex-end; }
+
+form .envio button, form .envio input { background-color: #c01f39; transition: all 0.5s ease 0s; }
+
+p.pic { text-align: center; }
+
+.parragraphe { font-size: 1.2em; line-height: 1.6em; }
+
+.enviar, .limpiar { align-self: end; color: #fff; font-size: 1em; padding: 1em; }
+
+.columna .doble > p { padding-top: 0; }
+
+.columna p, .columna div, .columna .ul { padding: 1em; }
+
+.columnas { display: flex; flex-flow: row wrap; justify-content: space-around; }
+
+.columna { flex-basis: 40%; }
+
+textarea { border-top: 1px solid; font-family: Arial; font-size: 1em; height: 200px; width: 100%; }
+
+.doble { display: flex; flex-flow: row wrap; }
+
+.doble > p { align-self: flex-end; flex-basis: 48%; order: 1; }
+
+.envio { flex-basis: 100%; }
+
+.lista-s > li { list-style: inside none disc; margin-bottom: 1em; }
+
+.lit { font-size: 1em; }
+
+.mid { margin-top: 0.7em; }
+
+.puertas form select { display: block; font-size: 1em; font-family: Arial; }
+
+.sidebar { flex-grow: 1; font-size: 1.2em; }
+
+.tarifas { border-radius: 10px; font-size: 90%; margin-top: 2em; text-align: center; }
+
+.triple { display: flex; flex-flow: row wrap; justify-content: space-around; }
+
+.unica { flex-basis: 100%; }
+
+@media all and (max-width: 64em) { .columna { flex-basis: 100%; } }

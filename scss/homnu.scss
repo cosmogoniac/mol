@@ -1,0 +1,754 @@
+@import 'base';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto,Arial;
+}
+
+div#container > div:not(.copy) {
+  margin-bottom: $tfUno;
+}
+div.banda {
+  color: $colorE;
+  padding: $tfUno;
+}
+div.banda-iconos {
+  font-size: $tfUnDos;
+}
+div.banda-iconos div:hover a,div.banda-iconos div:hover{
+  @include sombraTexto;
+  color:$color3;
+}
+div.banda-iconos span {
+  margin-top: 10px;
+}
+div.banda-iconos div i {
+  text-align: center;
+}
+div.banda-iconos div {
+  padding: $tfUnDos 0;
+}
+div.banda .literal{
+  font-weight:bold;
+}
+div.enz {
+  border: 1px solid $colorE;
+  -ms-flex-preferred-size: 16%;
+      flex-basis: 16%;
+  padding: $tfDos $tfTres;
+  text-align: center;
+}
+div.enz i {
+  display: block;
+}
+div.enz.clack:hover h3{
+  color:$colorTema;
+}
+div.enz.clack:hover a i{
+    color: $color3;
+}
+div.espacio-logo {
+  text-align: center;
+}
+div.separacion{
+  padding:0 1em;
+}
+div.ladate {
+  font-size: $tfUnCuatro;
+}
+div.lasnews .news {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  padding: $tfUno $tfDos;
+}
+div.lasnews .news h3 {
+  color: $colorH3;
+  padding-top: $tfUno;
+}
+div.lasnews .news > *:not(.permalink) {
+  background-color: rgba(200, 200, 200, 0.2);
+  padding: $tfUno;
+}
+div.lasnews .news p {
+  font-size: $tfUnTres;
+  line-height: $tfUnCinco;
+}
+div.main {
+    border-top: 1px solid #eee;
+    padding: 8px;
+    position: relative;
+}
+div.tablon{
+  flex-flow:row wrap;
+}
+div.tablon .tbl {
+  border: 1px solid #aaa;
+  padding: $tfUno;
+}
+div.tablon div {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+figure.imagenes {
+  opacity:0;
+  height: 0;
+  text-align: center;
+  transition: opacity linear 0.5s;
+}
+figure.imagenes.actiu{
+  opacity:1;
+}
+figure.imagenes > img {
+  max-width: 98vw;
+  width:$cien100;
+}
+select.ciego {
+  display: none;
+}
+@mixin sombraArriba{
+  box-shadow: 0 0 7px 1px #000;
+}
+
+@mixin sombraCaja{
+  box-shadow: 1px 1px 19px 1px black;
+}
+@mixin sombraTexto{
+  text-shadow:0 1px 12px black;
+}
+@mixin sombraTBlanca{
+  text-shadow:0 1px 12px #fff;
+}
+
+@mixin sombraBlanco{
+   color: white;
+   text-shadow: 1px 1px 2px black;
+}
+
+@mixin transicionO5{
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+@mixin soloTransicion{
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+@mixin transicion1{
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+@mixin aColumna{
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; 
+}
+
+@mixin ocupaTodo{
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+body {
+  font-family: Roboto,Arial;
+  font-size:1em;
+}
+
+a:hover{
+  color:#fff;
+}
+a:link, a:visited, a:active {
+  color: $color3;
+  text-decoration: none;
+  @include transicionO5;
+}
+// a:link:hover, a:visited:hover, a:active:hover {
+//   color: white;
+//   text-decoration: none;
+// }
+div.arriba,.principal .first-level a:before
+{
+  background-color: $colorTema;
+}
+
+div.header,
+{
+  background-color: #fff;
+}
+
+div.navegacion,footer,footer div,header,header .coord,header .social-links,
+nav.principal ul.first-level,nav.principal ul.first-level li:hover > ul,
+nav.principal ul.first-level
+{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+div.navegacion,footer,footer div,header .coord,header .social-links,
+nav.principal ul.first-level
+{
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+div.arriba,.principal .first-level a:before
+{
+  background-color: $colorTema;
+}
+
+div.header,
+{
+  background-color: #fff;
+}
+
+div.navegacion,footer,footer div,header,header .coord,header .social-links,
+nav.principal ul.first-level,nav.principal ul.first-level li:hover > ul,
+nav.principal ul.first-level
+{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+div.navegacion,footer,footer div,header .coord,header .social-links,
+nav.principal ul.first-level
+{
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+div.arriba {
+  border-radius: $cien50;
+  bottom: 2%;
+  color:#fff;
+  cursor:pointer;
+  @include sombraArriba;
+  padding: 0.6%;
+  position: fixed;
+  right: 2%;
+  opacity: 0;
+  @include transicion1;
+  z-index: -1;
+}
+
+div.arriba.opaUno{
+  z-index: 1;
+  opacity: 1;
+}
+
+div.arriba:hover {
+  background-color: $hover;
+}
+div.header {
+  @include sombraCaja;
+  position: fixed;
+  top: 0;
+  width: $cien100;
+  z-index: 4;
+}
+div.espacio-logo {
+    text-align: center;
+}
+footer{
+  background-color: #f0f0f0;
+  margin-top:2em;
+  padding: 2em;
+}
+footer div,nav.principal ul.first-level li:hover > ul
+{
+  @include aColumna;
+}
+header
+{
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  background-color:$miniCab;
+  font-size:$tfO8;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  line-height: $tfTres;
+  color:#fff;      
+}
+header .coord
+{
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+}
+
+header .coord .phone {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  text-align: right;
+}
+
+header .coord .mail {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+header .coord span i {
+  padding-right: 0.4em;
+}
+
+header .social-links {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+h3{
+  color: $colorH3;
+  // font-size: $tfDos;
+}
+
+hr {
+    color: rgb(192, 31, 57);
+    margin: $tfDos auto;
+    width: 72%;
+}
+nav.principal,.sprite.flag-france,nav.reduciendo > *
+{
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+nav.reduciendo,.cierre,.cruzada .cierra,.flecha,.enviar,.limpiar,.meses ul li
+{
+  cursor:pointer;
+}
+
+nav.reduciendo,.cierre
+{
+  cursor:pointer;
+}
+
+nav ul {
+  list-style: none;
+  z-index: 2;
+}
+
+nav.principal ul.first-level > li {
+  border-right: 1px solid rgba(100, 100, 100, 0.6);
+  margin-right: 2%;
+  padding: 0 2%;  
+  text-transform: uppercase;
+}
+
+nav.principal ul.first-level li > ul {
+  display: none;
+  position: absolute;
+  padding-top: 1em;
+  text-transform: lowercase;
+}
+
+
+nav.principal ul.first-level li:hover > ul li {
+  background-color: $negro;
+  border-bottom: 1px solid grey;
+  color: #777;
+  padding: 1em;
+}
+
+nav.principal ul.first-level li:hover > ul li a:hover {
+  color: #fff;
+  @include sombraTBlanca;
+}
+
+nav.principal ul.second-level a {
+  color: #777;
+  text-transform: capitalize;
+  @include transicionO5;
+}
+nav.principal .first-level a:hover,nav.principal ul.first-level > li:hover
+{
+  color: $colorTema;
+}
+
+nav.principal .first-level a, .permalink a:not(.nosign) {
+  color: $color3;
+  display: inline-block;
+  font-weight: bold;
+  position: relative;
+}
+
+nav.principal .first-level a {
+  font-weight: normal;
+}
+
+nav.principal .first-level a:before, .permalink a:not(.nosign):before {
+  bottom: 0;
+  content: "";
+  height: 3px;
+  position: absolute;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  width: 0;
+}
+
+nav.principal .first-level a:before {
+  bottom: -10px;
+}
+
+nav.principal .first-level>li>a:hover:before, .permalink a:not(.nosign):hover:before {
+  width: $cien100;
+}
+
+nav.reduciendo {
+  display: none;
+}
+
+
+#imagenes {
+  height: 80vh;
+  overflow: hidden;
+  margin-top: 9em;
+}
+.avn .globo {
+  display: block;
+  text-align: center;
+}
+.avn .globo:nth-child(even) > a {
+  background-color: $colorH3hover;
+}
+.avn .globo a {
+  color: $colorE;
+  display: block;
+  padding: .2em;
+  font-size: $tfUnDos;
+  line-height: $tfUnCinco;
+}
+.avn .globo a:hover {
+  color: $negro;
+}
+.cierre
+{
+  font-size:$tfDos;
+    display:none;
+}
+.cd.clack div:hover{
+  border-radius:50%;
+  box-shadow: 1px 1px 6px 5px black;
+  cursor:pointer;
+}
+.entera h1{
+    margin-top:6em;
+    flex-basis:100%;
+    text-align:center;
+}
+.footer {
+    font-size: 1.5em;
+    line-height: 3em;
+    padding-left: 20%;
+}
+.footer.copy > p {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.globo{
+  @include soloTransicion;
+}
+.globo a:hover{
+  // background-color: $color3;
+  color: $colorTema;
+  @include sombraCaja;
+}
+.globo a {
+  border-radius: $radioCirculo;
+  font-size: $tfO8;
+  padding: $tfUno;
+}
+.globo.gris a:hover {
+  color: $negro;
+}
+.globo.gris {
+  display: block;
+  padding: $tfDos 0 0;
+  text-align: center;
+}
+.globo.gris a {
+  background-color: $gris;
+  line-height: $tfDos;
+}
+.legend{
+  color:#8d8374;
+  font-family: Open Sans;
+}
+.oculto{display: none;}
+.video{
+  flex-grow:1;
+  margin:0 1em;
+  height:300px;
+}
+.video iframe {  
+  height: $cien100;
+  width: 100%;
+}
+.vidcuad .cuadro {
+  -ms-flex-preferred-size: 22%;
+      flex-basis: 48%;
+}
+.vidcuad .cuadro .cd {
+  align-self: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.separacion {
+    @include ocupaTodo;
+    font-size: 1.5em;
+}
+.separacion .lit{
+    margin:0 1em;
+}
+
+.separacion .lit span{
+    color: rgb(192,31,57);
+    margin-right:0.5em;
+}
+
+.separacion .mid {
+    border-top: 1px solid rgb(192,31,57);
+    margin-top: 0.7em;
+}
+.sprite { background: url('../images/sprites/sprite.png') no-repeat top left; width: 110px; height: 110px;  } 
+.sprite.flag-france { background-position: 0 0; width: 25px; height: 15px; } 
+.sprite.logo { background-position: 0 -25px; width: 328px; } 
+.sprite.primaria-sm { background-position: 0 -145px; } 
+.sprite.infantil-sm { background-position: 0 -265px; height: 112px; } 
+.sprite.eso-sm { background-position: 0 -387px; } 
+.sprite.bachiller-sm { background-position: 0 -507px; height: 109px; } 
+.sprite.mision_laique-1 { background-position: 0 -626px; width: 300px; height: 152px; } 
+.sprite.accion-contra-hambre-2 { background-position: 0 -788px; width: 300px; height: 112px; } 
+.sprite.plano-moliere-zaragoza { background-position: 0 -910px; width: 350px; height: 263px; } 
+.sprite.logo-min { background-position: 0 -2147px; width: 61px; height: 50px; } 
+
+@media all and (max-width: 88em) {
+    div.enz{
+      padding:1em;
+    }
+    div.enz h3{
+      font-size:1.2em;
+    }
+    div.banda {
+      font-size: 1.6em;
+    }
+}
+@media all and (max-width: 80em) {
+    div.ladate{
+      font-size:1em;
+    }
+    div.lasnews .news{
+      flex-basis:40%;
+      padding:1em;
+    }
+    div.lasnews .news p{
+      font-size:1.1em;
+    }
+    div.lasnews .news h3 {
+      font-size: 1.4em;
+    }
+    div.lasnews .news > *:not(.permalink) {
+      padding: 0.3em 0.8em;
+  }
+}
+@media all and (max-width: 70em) {
+  nav.principal{
+    flex-grow:1;
+  }
+  nav.principal ul.first-level > li{
+    margin-right:0%;
+    font-size:0.8em;
+    padding: 0 1%;
+  }    
+}
+@media all and (max-width: 62em) {}
+@media all and (max-width: 60em) {
+  div.tablon div {
+      flex-basis: 40%;
+  }
+  div.tablon div.avn {
+      flex-basis: 80%;
+      margin-top: 1em;
+  }  
+  div.tablon div.avn .globo{
+    margin-top:0.1em;
+  }
+  div.arriba{
+    font-size:2em;
+  }  
+}
+@media all and (max-width: 54em) {
+
+}
+@media all and (max-width: 48em) {
+   .globo{
+    margin-top:1em;
+    }
+}
+@media all and (max-width: 46em) {
+  div.banda .literal {
+    flex-basis: 60%;
+  }
+  div.banda-iconos {
+    font-size: 1em;
+  }
+ div.enz{
+    padding: auto;
+  }
+  div.enz h3 {
+      font-size: 1em;
+  }
+  div.banda-iconos div {
+    padding:1em;
+  }
+  div.enz i, div.banda-iconos div i {
+      font-size: 2em;
+  }
+  div.banda-iconos div span{
+    font-size:0.8em;
+  }
+  div.lasnews .news {
+      flex-basis: 80%;
+      padding: 0.4em;
+  }
+  div.tablon .tbl {
+      border: 1px solid #aaa;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1em;
+  }
+  div.espacio-logo {
+    display: none;
+  }
+  footer div:not(:first-child) {
+    margin-top: 1em!important;
+  }
+   header .coord,header .social-links{
+    display: none!important;
+  }
+  nav.principal {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      display: none;
+      height: 98vh;
+      left: 0;
+      overflow-y: auto;
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+  nav.principal .cierre {
+    color: #fff;
+    display: block;
+    padding: 3px;
+    position: fixed;
+    right: 1em;
+    top: 0;
+    z-index: 2;
+  }
+  nav.principal ul.first-level{
+    position: absolute;
+  }
+  nav.principal .first-level a::before{
+    bottom:0;
+  }
+  nav.principal ul.first-level > li {
+    font-size: 0.8em;
+  }
+  nav.principal ul.first-level li > ul {
+      -moz-box-direction: normal;
+      -moz-box-orient: vertical;
+      flex-direction: column;
+      background-color: black;
+      display: block;      
+      padding-top: 0;
+      position: relative;
+  }
+  nav.reduciendo {
+    background-color: $colorTema;
+    color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 2em;
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 100%;
+    display:flex;
+  }
+  nav.principal ul.first-level {
+    @include aColumna;
+  }
+  nav.principal ul.first-level li > ul{
+    @include aColumna;
+    padding-top: 0;
+    position: relative;
+  }
+  nav.principal .first-level a{
+    color:white;
+  }
+  nav.principal ul.first-level li> ul li {
+    background-color: #000;
+    border-bottom: 1px solid grey;
+    color: #999;
+    padding: 1em;
+  }
+  #imagenes {
+      height: 262px;
+      margin-top: 2em;
+      overflow: hidden;
+  }  
+  .entera h1{
+    margin-top:2em;
+  }
+  .footer.copy {
+    font-size: 0.6em;
+  }
+}
+@media all and (max-width: 42em) {
+  div.banda {
+      font-size: 1.2em;
+  }
+  div.main{
+    padding: 0;
+    margin-bottom:0!important;
+  }  
+}
+@media all and (max-width: 38em) {
+  div.tablon div {
+      flex-basis: 80%;
+      margin-top: 1em;
+  }
+
+  .vidcuad .cuadro{
+    flex-basis:100%;
+  }
+}
+@media all and (max-width: 26em) {
+  .sprite.plano-moliere-zaragoza {
+    height: 260px;
+    width: 292px;
+  }
+  .sprite.mision_laique-1,.sprite.accion-contra-hambre-2{
+    width:292px!important;
+  }
+ #imagenes {
+      height: 220px!important;
+  }
+  
+}
+@media all and (max-width: 24em) {
+ #imagenes {
+      height: 190px!important;
+  }
+
+}
+@media all and (max-width: 22em) {
+  #imagenes {
+      height: 160px!important;
+  }
+}

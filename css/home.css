@@ -1,0 +1,629 @@
+/* line 108, C:/wamp/www/pruebamoliere/scss/base.scss */
+div.banda .literal, header .coord, section.inscripciones, section.director, section.titulos, .somos, section.metodo, section.idiomas, section.horario,
+section.organigrama, section.calendrier, section.menus, section.actividades, section.libros, section.contacto, section.agenda, section.frances {
+  -ms-flex-preferred-size: 70%;
+  flex-basis: 70%;
+}
+
+/* line 115, C:/wamp/www/pruebamoliere/scss/base.scss */
+div.enz, div.banda-iconos div, div.arriba, a:hover, .clack, .direccion, nav.reduciendo, .cierre, .cruzada .cierra, .flecha, .enviar, .limpiar, .meses ul li,
+.horarios .clases ul li, .horario .clases ul li, .menus .annee .mes .dia .last, .dia > div:first-child:hover, div.btn {
+  cursor: pointer;
+}
+
+/* line 121, C:/wamp/www/pruebamoliere/scss/base.scss */
+body, .menus .annee .mes {
+  font-size: 1em;
+}
+
+/* line 126, C:/wamp/www/pruebamoliere/scss/base.scss */
+.cierre, div.banda {
+  font-size: 2em;
+}
+
+/* line 132, C:/wamp/www/pruebamoliere/scss/base.scss */
+div.lasnews .news h3 {
+  font-size: 1.8em;
+}
+
+/* line 137, C:/wamp/www/pruebamoliere/scss/base.scss */
+div.enz i, div.banda-iconos div i {
+  font-size: 4em;
+}
+
+/* line 143, C:/wamp/www/pruebamoliere/scss/base.scss */
+div.tablon .tbl {
+  font-size: 1.4em;
+}
+
+/* line 149, C:/wamp/www/pruebamoliere/scss/base.scss */
+div.lasnews .news p {
+  font-size: 0.8em;
+}
+
+/* line 154, C:/wamp/www/pruebamoliere/scss/base.scss */
+div.enz i, div.ladate, .principal .first-level a:hover, .permalink a:not(.nosign):hover, nav.principal ul.first-level > li:hover, .globo a,
+.entry a:hover, .mois.activo .litermes .diames, .razon li a {
+  color: #c01f39;
+}
+
+/* line 159, C:/wamp/www/pruebamoliere/scss/base.scss */
+div.arriba, div.banda, div.banda-iconos, .principal .first-level a:before, .permalink a:not(.nosign):before, .avn .globo:nth-child(odd) > a, .btn,
+.razon span, .enviar, .limpiar, .mesActive, .menus .annee .mes .last:not(.festivo):hover, .dia.prendido > div:first-child, .dia > div:first-child:hover {
+  background-color: #c01f39;
+}
+
+/* line 165, C:/wamp/www/pruebamoliere/scss/base.scss */
+.globo a, div.header {
+  background-color: #fff;
+}
+
+/* line 170, C:/wamp/www/pruebamoliere/scss/base.scss */
+.globo.gris a, div.arriba, div.banda-iconos, div.banda-iconos a, .avn .globo:nth-child(even) > a, .avn .globo:nth-child(odd) > a, header,
+header .social-links a:hover, .razon span {
+  color: #fff;
+}
+
+/* line 176, C:/wamp/www/pruebamoliere/scss/base.scss */
+.razon li a:hover {
+  color: #000;
+}
+
+/* line 179, C:/wamp/www/pruebamoliere/scss/base.scss */
+.mois, .menus .oculto, .menus .annee .mes {
+  display: none;
+}
+
+/* line 185, C:/wamp/www/pruebamoliere/scss/base.scss */
+div#container, div.banda, div.banda-iconos, div.banda-iconos div, div.enlaces, div.navegacion, div.noticias .lasnews, .news, div.lasnews .news, div.separacion,
+div.tablon, footer, footer div, header, header .coord, header .social-links, nav.principal ul.first-level, nav.principal ul.first-level li:hover > ul, .avn,
+.footer, .vidcuad, .vidcuad .cuadro, nav.principal ul.first-level, .somos, .statis, .tabla .tres, .botones, .entera, form.inscripcion, section.inscripciones,
+.biparrafo, .envio, .inscription, form.inscripcion div.alumno, form.inscripcion div.progenitor, section.director, .razones, .perenne, .menus .dosbloques,
+.menus, .menus .annee .mes.actif, section.horario, .menus .dia, .menus .dosbloques, .menus, .menus .annee .mes.actif, .mes.actif, section .botones,
+.triparrafo, section.rutasautobus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 197, C:/wamp/www/pruebamoliere/scss/base.scss */
+form.inscripcion, .parrafo.inscription, .separacion, .biparrafo {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+/* line 202, C:/wamp/www/pruebamoliere/scss/base.scss */
+div#container, div.banda-iconos div, .news, div.lasnews .news, footer div, nav.principal ul.first-level li:hover > ul, .avn, form.inscripcion div.alumno, form.inscripcion div.progenitor {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/* line 207, C:/wamp/www/pruebamoliere/scss/base.scss */
+div.banda, div.banda-iconos, div.enlaces, div.navegacion, div.noticias .lasnews, div.tablon, footer, footer div, header .coord, header .social-links,
+nav.principal ul.first-level, .avn, .vidcuad, .vidcuad .cuadro, .somos, .statis, .botones, form.inscripcion, .biparrafo, .inscription, .razones, .perenne,
+.menus .dia, section .botones, .biparrafo, .triparrafo {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+/* line 215, C:/wamp/www/pruebamoliere/scss/base.scss */
+div.lasnews .news, header, section.menus, section.menus {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* line 222, C:/wamp/www/pruebamoliere/scss/base.scss */
+div.banda-iconos, div.noticias .lasnews div.tablon, footer, .vidcuad .cuadro, div.enlaces, .vidcuad, div.banda, .somos, .statis, .entera, form.inscripcion,
+section.inscripciones, .envio, .inscription, section.director, .razones, .biparrafo, .idiomas .botones, .menus, section.menus, div.lasnews,
+section.horario, section.calendrier .annee, section .botones, .separacion, .triparrafo, section.rutasautobus {
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+/* line 230, C:/wamp/www/pruebamoliere/scss/base.scss */
+div.banda > span, nav.principal, .sprite.flag-france, nav.reduciendo > * {
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+/* line 235, C:/wamp/www/pruebamoliere/scss/base.scss */
+figure.actiu, .direccion:hover, .horas.active, .menu.active {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+/* line 241, C:/wamp/www/pruebamoliere/scss/base.scss */
+.menu {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/* line 245, C:/wamp/www/pruebamoliere/scss/base.scss */
+.menu:nth-child(odd) {
+  -ms-flex-item-align: flex-start;
+  align-self: flex-start;
+}
+
+/* line 250, C:/wamp/www/pruebamoliere/scss/base.scss */
+.menus .dosbloques {
+  -webkit-align-content: flex-start;
+  align-content: flex-start;
+}
+
+/* line 254, C:/wamp/www/pruebamoliere/scss/base.scss */
+.meses ul li {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/* line 260, C:/wamp/www/pruebamoliere/scss/base.scss */
+.direccion, .enz.clack a i, .enz.clack h3, header .social-links a, .enviar, .limpiar, .menus .annee .mes .last, .dia > div:first-child:hover, div.btn {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 265, C:/wamp/www/pruebamoliere/scss/base.scss */
+.news, .news > *:not(.permalink), div.lasnews .news, div.enz, form.inscripcion div, .parrafo.inscripcion, section.titulos,
+.director .parrafo, section.metodo, section.idiomas, section.horario, .perenne, .tresColumnas, .perenne > span, .horarios, .biparrafo .parrafo,
+.menus .activo, section.agenda, section.frances, .menus .annee, .menus .dia, .menus .annee, .separacion .mid {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+@media all and (max-width: 44em) {
+  /* line 275, C:/wamp/www/pruebamoliere/scss/base.scss */
+  section.menus {
+    -ms-flex-item-align: center;
+    align-self: start;
+  }
+  /* line 279, C:/wamp/www/pruebamoliere/scss/base.scss */
+  section.menus .dia *:last-child, section.menus .dia *:nth-child(2), section.menus .dia.nohab {
+    display: none !important;
+  }
+  /* line 282, C:/wamp/www/pruebamoliere/scss/base.scss */
+  section.calendrier, .mes.actif {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  /* line 286, C:/wamp/www/pruebamoliere/scss/base.scss */
+  .mes {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+  }
+  /* line 293, C:/wamp/www/pruebamoliere/scss/base.scss */
+  .mes.actif {
+    -ms-flex-flow: row wrap !important;
+    flex-flow: row wrap !important;
+  }
+}
+
+/* line 3, C:/wamp/www/pruebamoliere/scss/home.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, C:/wamp/www/pruebamoliere/scss/home.scss */
+body {
+  font-family: Roboto,Arial;
+}
+
+/* line 12, C:/wamp/www/pruebamoliere/scss/home.scss */
+div#container > div:not(.copy) {
+  margin-bottom: 1em;
+}
+
+/* line 17, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.banda {
+  color: #eee;
+  padding: 1em;
+}
+
+/* line 21, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.banda-iconos {
+  font-size: 1.2em;
+}
+
+/* line 24, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.banda-iconos div:hover a, div.banda-iconos div:hover {
+  text-shadow: 0 1px 12px black;
+  color: #333333;
+}
+
+/* line 28, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.banda-iconos span {
+  margin-top: 10px;
+}
+
+/* line 31, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.banda-iconos div i {
+  text-align: center;
+}
+
+/* line 34, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.banda-iconos div {
+  padding: 1.2em 0;
+}
+
+/* line 37, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.banda .literal {
+  font-weight: bold;
+}
+
+/* line 40, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.enz {
+  border: 1px solid #eee;
+  -ms-flex-preferred-size: 16%;
+  flex-basis: 16%;
+  padding: 2em 3em;
+  text-align: center;
+}
+
+/* line 47, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.enz i {
+  display: block;
+}
+
+/* line 50, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.enz.clack:hover h3 {
+  color: #c01f39;
+}
+
+/* line 53, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.enz.clack:hover a i {
+  color: #333333;
+}
+
+/* line 56, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.espacio-logo {
+  text-align: center;
+}
+
+/* line 59, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.separacion {
+  padding: 0 1em;
+}
+
+/* line 62, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.ladate {
+  font-size: 1.4em;
+}
+
+/* line 65, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.lasnews .news {
+  -ms-flex-preferred-size: 40%;
+  flex-basis: 40%;
+  padding: 1em 2em;
+}
+
+/* line 70, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.lasnews .news h3 {
+  color: #444;
+  padding-top: 1em;
+}
+
+/* line 74, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.lasnews .news > *:not(.permalink) {
+  background-color: rgba(200, 200, 200, 0.2);
+  padding: 1em;
+}
+
+/* line 78, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.lasnews .news p {
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+/* line 82, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.main {
+  border-top: 1px solid #eee;
+  padding: 8px;
+  position: relative;
+}
+
+/* line 87, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.tablon {
+  flex-flow: row wrap;
+}
+
+/* line 90, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.tablon .tbl {
+  border: 1px solid #aaa;
+  padding: 1em;
+}
+
+/* line 94, C:/wamp/www/pruebamoliere/scss/home.scss */
+div.tablon div {
+  -ms-flex-preferred-size: 30%;
+  flex-basis: 30%;
+}
+
+/* line 98, C:/wamp/www/pruebamoliere/scss/home.scss */
+figure.imagenes {
+  opacity: 0;
+  height: 0;
+  text-align: center;
+  transition: opacity linear 0.5s;
+}
+
+/* line 104, C:/wamp/www/pruebamoliere/scss/home.scss */
+figure.imagenes.actiu {
+  opacity: 1;
+}
+
+/* line 107, C:/wamp/www/pruebamoliere/scss/home.scss */
+figure.imagenes > img {
+  max-width: 98vw;
+  width: 100%;
+}
+
+/* line 111, C:/wamp/www/pruebamoliere/scss/home.scss */
+select.ciego {
+  display: none;
+}
+
+/* line 114, C:/wamp/www/pruebamoliere/scss/home.scss */
+#imagenes {
+  height: 80vh;
+  overflow: hidden;
+  margin-top: 9em;
+}
+
+/* line 119, C:/wamp/www/pruebamoliere/scss/home.scss */
+.avn .globo {
+  display: block;
+  text-align: center;
+}
+
+/* line 123, C:/wamp/www/pruebamoliere/scss/home.scss */
+.avn .globo:nth-child(even) > a {
+  background-color: #777;
+}
+
+/* line 126, C:/wamp/www/pruebamoliere/scss/home.scss */
+.avn .globo a {
+  color: #eee;
+  display: block;
+  padding: .2em;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+/* line 133, C:/wamp/www/pruebamoliere/scss/home.scss */
+.avn .globo a:hover {
+  color: #000;
+}
+
+/* line 136, C:/wamp/www/pruebamoliere/scss/home.scss */
+.globo {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/* line 139, C:/wamp/www/pruebamoliere/scss/home.scss */
+.globo a:hover {
+  color: #c01f39;
+  box-shadow: 1px 1px 19px 1px black;
+}
+
+/* line 144, C:/wamp/www/pruebamoliere/scss/home.scss */
+.globo a {
+  border-radius: 100px;
+  font-size: 0.8em;
+  padding: 1em;
+}
+
+/* line 149, C:/wamp/www/pruebamoliere/scss/home.scss */
+.globo.gris a:hover {
+  color: #000;
+}
+
+/* line 152, C:/wamp/www/pruebamoliere/scss/home.scss */
+.globo.gris {
+  display: block;
+  padding: 2em 0 0;
+  text-align: center;
+}
+
+/* line 157, C:/wamp/www/pruebamoliere/scss/home.scss */
+.globo.gris a {
+  background-color: #808080;
+  line-height: 2em;
+}
+
+/* line 161, C:/wamp/www/pruebamoliere/scss/home.scss */
+.video {
+  flex-grow: 1;
+  margin: 0 1em;
+  height: 300px;
+}
+
+/* line 166, C:/wamp/www/pruebamoliere/scss/home.scss */
+.video iframe {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 170, C:/wamp/www/pruebamoliere/scss/home.scss */
+.vidcuad .cuadro {
+  -ms-flex-preferred-size: 22%;
+  flex-basis: 48%;
+}
+
+/* line 174, C:/wamp/www/pruebamoliere/scss/home.scss */
+.vidcuad .cuadro .cd {
+  align-self: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 88em) {
+  /* line 181, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.enz {
+    padding: 1em;
+  }
+  /* line 184, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.enz h3 {
+    font-size: 1.2em;
+  }
+  /* line 187, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.banda {
+    font-size: 1.6em;
+  }
+}
+
+@media all and (max-width: 80em) {
+  /* line 192, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.ladate {
+    font-size: 1em;
+  }
+  /* line 195, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.lasnews .news {
+    flex-basis: 40%;
+    padding: 1em;
+  }
+  /* line 199, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.lasnews .news p {
+    font-size: 1.1em;
+  }
+  /* line 202, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.lasnews .news h3 {
+    font-size: 1.4em;
+  }
+  /* line 205, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.lasnews .news > *:not(.permalink) {
+    padding: 0.3em 0.8em;
+  }
+}
+
+@media all and (max-width: 60em) {
+  /* line 212, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.tablon div {
+    flex-basis: 40%;
+  }
+  /* line 215, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.tablon div.avn {
+    flex-basis: 80%;
+    margin-top: 1em;
+  }
+  /* line 219, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.tablon div.avn .globo {
+    margin-top: 0.1em;
+  }
+}
+
+@media all and (max-width: 48em) {
+  /* line 228, C:/wamp/www/pruebamoliere/scss/home.scss */
+  .globo {
+    margin-top: 1em;
+  }
+}
+
+@media all and (max-width: 46em) {
+  /* line 233, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.banda .literal {
+    flex-basis: 60%;
+  }
+  /* line 236, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.banda-iconos {
+    font-size: 1em;
+  }
+  /* line 239, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.enz {
+    padding: auto;
+  }
+  /* line 242, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.enz h3 {
+    font-size: 1em;
+  }
+  /* line 245, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.banda-iconos div {
+    padding: 1em;
+  }
+  /* line 248, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.enz i, div.banda-iconos div i {
+    font-size: 2em;
+  }
+  /* line 251, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.banda-iconos div span {
+    font-size: 0.8em;
+  }
+  /* line 254, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.lasnews .news {
+    flex-basis: 80%;
+    padding: 0.4em;
+  }
+  /* line 258, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.tablon .tbl {
+    border: 1px solid #aaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  /* line 266, C:/wamp/www/pruebamoliere/scss/home.scss */
+  #imagenes {
+    height: 262px;
+    margin-top: 2em;
+    overflow: hidden;
+  }
+}
+
+@media all and (max-width: 42em) {
+  /* line 274, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.banda {
+    font-size: 1.2em;
+  }
+}
+
+@media all and (max-width: 38em) {
+  /* line 279, C:/wamp/www/pruebamoliere/scss/home.scss */
+  div.tablon div {
+    flex-basis: 80%;
+    margin-top: 1em;
+  }
+  /* line 284, C:/wamp/www/pruebamoliere/scss/home.scss */
+  .vidcuad .cuadro {
+    flex-basis: 100%;
+  }
+}
+
+@media all and (max-width: 26em) {
+  /* line 289, C:/wamp/www/pruebamoliere/scss/home.scss */
+  .sprite.plano-moliere-zaragoza {
+    height: 260px;
+    width: 292px;
+  }
+  /* line 293, C:/wamp/www/pruebamoliere/scss/home.scss */
+  .sprite.mision_laique-1, .sprite.accion-contra-hambre-2 {
+    width: 292px !important;
+  }
+  /* line 296, C:/wamp/www/pruebamoliere/scss/home.scss */
+  #imagenes {
+    height: 220px !important;
+  }
+}
+
+@media all and (max-width: 24em) {
+  /* line 301, C:/wamp/www/pruebamoliere/scss/home.scss */
+  #imagenes {
+    height: 190px !important;
+  }
+}
+
+@media all and (max-width: 22em) {
+  /* line 307, C:/wamp/www/pruebamoliere/scss/home.scss */
+  #imagenes {
+    height: 160px !important;
+  }
+}
+
+/*# sourceMappingURL=../css/home.map */

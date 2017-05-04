@@ -1,0 +1,726 @@
+[23-Jan-2017 10:52:10 UTC] PHP Catchable fatal error:  Object of class WP_User could not be converted to string in C:\wamp\www\pruebamoliere\boss\nav.php on line 27
+[23-Jan-2017 10:52:10 UTC] PHP Stack trace:
+[23-Jan-2017 10:52:10 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\apres.php:0
+[23-Jan-2017 10:52:10 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\apres.php:130
+[23-Jan-2017 10:53:41 UTC] PHP Catchable fatal error:  Object of class WP_User could not be converted to string in C:\wamp\www\pruebamoliere\boss\nav.php on line 28
+[23-Jan-2017 10:53:41 UTC] PHP Stack trace:
+[23-Jan-2017 10:53:41 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\apres.php:0
+[23-Jan-2017 10:53:41 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\apres.php:130
+[23-Jan-2017 10:54:00 UTC] PHP Fatal error:  Call to undefined function edd_has_user_purchased() in C:\wamp\www\pruebamoliere\boss\nav.php on line 29
+[23-Jan-2017 10:54:00 UTC] PHP Stack trace:
+[23-Jan-2017 10:54:00 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\apres.php:0
+[23-Jan-2017 10:54:00 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\apres.php:130
+[23-Jan-2017 10:54:41 UTC] PHP Fatal error:  Call to undefined function edd_has_user_purchased() in C:\wamp\www\pruebamoliere\boss\nav.php on line 29
+[23-Jan-2017 10:54:41 UTC] PHP Stack trace:
+[23-Jan-2017 10:54:41 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\apres.php:0
+[23-Jan-2017 10:54:41 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\apres.php:130
+[23-Jan-2017 10:55:19 UTC] PHP Fatal error:  Call to undefined function edd_has_user_purchased() in C:\wamp\www\pruebamoliere\boss\nav.php on line 28
+[23-Jan-2017 10:55:19 UTC] PHP Stack trace:
+[23-Jan-2017 10:55:19 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\apres.php:0
+[23-Jan-2017 10:55:19 UTC] PHP   2. include() C:\wamp\www\pruebamoliere\boss\apres.php:130
+[23-Jan-2017 10:58:38 UTC] PHP Fatal error:  Call to undefined function edd_has_user_purchased() in C:\wamp\www\pruebamoliere\boss\nav.php on line 44
+[23-Jan-2017 10:58:38 UTC] PHP Stack trace:
+[23-Jan-2017 10:58:38 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\apres.php:0
+[23-Jan-2017 10:58:38 UTC] PHP   2. include() C:\wamp\www\pruebamoliere\boss\apres.php:130
+[23-Jan-2017 11:05:02 UTC] PHP Fatal error:  Call to undefined function edd_has_user_purchased() in C:\wamp\www\pruebamoliere\boss\nav.php on line 44
+[23-Jan-2017 11:05:02 UTC] PHP Stack trace:
+[23-Jan-2017 11:05:02 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\apres.php:0
+[23-Jan-2017 11:05:02 UTC] PHP   2. include() C:\wamp\www\pruebamoliere\boss\apres.php:130
+[23-Jan-2017 11:47:11 UTC] PHP Fatal error:  Call to undefined function is_user_logged_in() in C:\wamp\www\pruebamoliere\boss\nav.php on line 4
+[23-Jan-2017 11:47:11 UTC] PHP Stack trace:
+[23-Jan-2017 11:47:11 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\calendario.php:0
+[23-Jan-2017 11:47:11 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\calendario.php:89
+[23-Jan-2017 11:55:01 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\pruebamoliere\boss\nav.php on line 24
+[23-Jan-2017 11:55:01 UTC] PHP Stack trace:
+[23-Jan-2017 11:55:01 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\nav.php:0
+[23-Jan-2017 11:56:03 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\pruebamoliere\boss\nav.php on line 24
+[23-Jan-2017 11:56:03 UTC] PHP Stack trace:
+[23-Jan-2017 11:56:03 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\nav.php:0
+[23-Jan-2017 11:57:24 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\pruebamoliere\boss\nav.php on line 24
+[23-Jan-2017 11:57:24 UTC] PHP Stack trace:
+[23-Jan-2017 11:57:24 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\nav.php:0
+[23-Jan-2017 11:58:24 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\pruebamoliere\boss\nav.php on line 24
+[23-Jan-2017 11:58:24 UTC] PHP Stack trace:
+[23-Jan-2017 11:58:24 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\nav.php:0
+[23-Jan-2017 12:02:19 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\pruebamoliere\boss\acceso.php on line 23
+[23-Jan-2017 12:02:19 UTC] PHP Stack trace:
+[23-Jan-2017 12:02:19 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:04:05 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\pruebamoliere\boss\acceso.php on line 23
+[23-Jan-2017 12:04:05 UTC] PHP Stack trace:
+[23-Jan-2017 12:04:05 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:05:13 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\pruebamoliere\boss\acceso.php on line 23
+[23-Jan-2017 12:05:13 UTC] PHP Stack trace:
+[23-Jan-2017 12:05:13 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:08:23 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\pruebamoliere\boss\acceso.php on line 25
+[23-Jan-2017 12:08:23 UTC] PHP Stack trace:
+[23-Jan-2017 12:08:23 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:09:15 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\pruebamoliere\boss\acceso.php on line 26
+[23-Jan-2017 12:09:15 UTC] PHP Stack trace:
+[23-Jan-2017 12:09:15 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:09:55 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:09:55 UTC] PHP Stack trace:
+[23-Jan-2017 12:09:55 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:09:55 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:31
+[23-Jan-2017 12:09:55 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:09:55 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:11:54 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:11:54 UTC] PHP Stack trace:
+[23-Jan-2017 12:11:54 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:11:54 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:33
+[23-Jan-2017 12:11:54 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:11:54 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:12:32 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:12:32 UTC] PHP Stack trace:
+[23-Jan-2017 12:12:32 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:12:32 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:35
+[23-Jan-2017 12:12:32 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:12:32 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:13:09 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:13:09 UTC] PHP Stack trace:
+[23-Jan-2017 12:13:09 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:13:09 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:35
+[23-Jan-2017 12:13:09 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:13:09 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:13:33 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:13:33 UTC] PHP Stack trace:
+[23-Jan-2017 12:13:33 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:13:33 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:34
+[23-Jan-2017 12:13:33 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:13:33 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:14:59 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:14:59 UTC] PHP Stack trace:
+[23-Jan-2017 12:14:59 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:14:59 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:34
+[23-Jan-2017 12:14:59 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:14:59 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:15:27 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:15:27 UTC] PHP Stack trace:
+[23-Jan-2017 12:15:27 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:15:27 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:33
+[23-Jan-2017 12:15:27 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:15:27 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:16:27 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:16:27 UTC] PHP Stack trace:
+[23-Jan-2017 12:16:27 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:16:27 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:33
+[23-Jan-2017 12:16:27 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:16:27 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:18:09 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:18:09 UTC] PHP Stack trace:
+[23-Jan-2017 12:18:09 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:18:09 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:33
+[23-Jan-2017 12:18:09 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:18:09 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:19:11 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:19:11 UTC] PHP Stack trace:
+[23-Jan-2017 12:19:11 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:19:11 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:33
+[23-Jan-2017 12:19:11 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:19:11 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:19:47 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:19:47 UTC] PHP Stack trace:
+[23-Jan-2017 12:19:47 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:19:47 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:33
+[23-Jan-2017 12:19:47 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:19:47 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:23:13 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:23:13 UTC] PHP Stack trace:
+[23-Jan-2017 12:23:13 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:23:13 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:33
+[23-Jan-2017 12:23:13 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:23:13 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:24:05 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:24:05 UTC] PHP Stack trace:
+[23-Jan-2017 12:24:05 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:24:05 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:34
+[23-Jan-2017 12:24:05 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:24:05 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:26:21 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:26:21 UTC] PHP Stack trace:
+[23-Jan-2017 12:26:21 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:26:21 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:34
+[23-Jan-2017 12:26:21 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:26:21 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:26:50 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:26:50 UTC] PHP Stack trace:
+[23-Jan-2017 12:26:50 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:26:50 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:34
+[23-Jan-2017 12:26:50 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:26:50 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 12:28:10 UTC] PHP Warning:  trim() expects parameter 1 to be string, object given in C:\wamp\www\liceo\wp-includes\pluggable.php on line 506
+[23-Jan-2017 12:28:10 UTC] PHP Stack trace:
+[23-Jan-2017 12:28:10 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\acceso.php:0
+[23-Jan-2017 12:28:10 UTC] PHP   2. wp_signon() C:\wamp\www\pruebamoliere\boss\acceso.php:34
+[23-Jan-2017 12:28:10 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[23-Jan-2017 12:28:10 UTC] PHP   4. trim() C:\wamp\www\liceo\wp-includes\pluggable.php:506
+[23-Jan-2017 13:43:14 UTC] PHP Notice:  Constant WP_USE_THEMES already defined in C:\wamp\www\liceo\index.php on line 14
+[23-Jan-2017 13:43:14 UTC] PHP Stack trace:
+[23-Jan-2017 13:43:14 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\calendario.php:0
+[23-Jan-2017 13:43:14 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\calendario.php:89
+[23-Jan-2017 13:43:14 UTC] PHP   3. require() C:\wamp\www\pruebamoliere\boss\nav.php:9
+[23-Jan-2017 13:43:14 UTC] PHP   4. define() C:\wamp\www\liceo\index.php:14
+[23-Jan-2017 13:47:48 UTC] PHP Notice:  Constant WP_USE_THEMES already defined in C:\wamp\www\liceo\index.php on line 14
+[23-Jan-2017 13:47:48 UTC] PHP Stack trace:
+[23-Jan-2017 13:47:48 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\calendario.php:0
+[23-Jan-2017 13:47:48 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\calendario.php:89
+[23-Jan-2017 13:47:48 UTC] PHP   3. require() C:\wamp\www\pruebamoliere\boss\nav.php:8
+[23-Jan-2017 13:47:48 UTC] PHP   4. define() C:\wamp\www\liceo\index.php:14
+[23-Jan-2017 14:46:50 UTC] PHP Notice:  Constant WP_USE_THEMES already defined in C:\wamp\www\liceo\index.php on line 14
+[23-Jan-2017 14:46:50 UTC] PHP Stack trace:
+[23-Jan-2017 14:46:50 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\calendario.php:0
+[23-Jan-2017 14:46:50 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\calendario.php:89
+[23-Jan-2017 14:46:50 UTC] PHP   3. require() C:\wamp\www\pruebamoliere\boss\nav.php:10
+[23-Jan-2017 14:46:50 UTC] PHP   4. define() C:\wamp\www\liceo\index.php:14
+[23-Jan-2017 14:48:06 UTC] PHP Fatal error:  Call to undefined function get_currentuserinfo() in C:\wamp\www\pruebamoliere\boss\nav.php on line 17
+[23-Jan-2017 14:48:06 UTC] PHP Stack trace:
+[23-Jan-2017 14:48:06 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\calendario.php:0
+[23-Jan-2017 14:48:06 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\calendario.php:89
+[23-Jan-2017 14:53:47 UTC] PHP Notice:  Constant WP_USE_THEMES already defined in C:\wamp\www\liceo\index.php on line 14
+[23-Jan-2017 14:53:47 UTC] PHP Stack trace:
+[23-Jan-2017 14:53:47 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\calendario.php:0
+[23-Jan-2017 14:53:47 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\calendario.php:89
+[23-Jan-2017 14:53:47 UTC] PHP   3. require() C:\wamp\www\pruebamoliere\boss\nav.php:10
+[23-Jan-2017 14:53:47 UTC] PHP   4. define() C:\wamp\www\liceo\index.php:14
+[23-Jan-2017 15:10:24 UTC] PHP Notice:  Constant WP_USE_THEMES already defined in C:\wamp\www\liceo\index.php on line 14
+[23-Jan-2017 15:10:24 UTC] PHP Stack trace:
+[23-Jan-2017 15:10:24 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\calendario.php:0
+[23-Jan-2017 15:10:24 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\calendario.php:89
+[23-Jan-2017 15:10:24 UTC] PHP   3. require() C:\wamp\www\pruebamoliere\boss\nav.php:10
+[23-Jan-2017 15:10:24 UTC] PHP   4. define() C:\wamp\www\liceo\index.php:14
+[23-Jan-2017 16:53:24 UTC] PHP Notice:  Constant WP_USE_THEMES already defined in C:\wamp\www\liceo\index.php on line 14
+[23-Jan-2017 16:53:24 UTC] PHP Stack trace:
+[23-Jan-2017 16:53:24 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\calendario.php:0
+[23-Jan-2017 16:53:24 UTC] PHP   2. require() C:\wamp\www\pruebamoliere\boss\calendario.php:4
+[23-Jan-2017 16:53:24 UTC] PHP   3. define() C:\wamp\www\liceo\index.php:14
+[24-Jan-2017 09:09:04 UTC] PHP Notice:  Constant WP_USE_THEMES already defined in C:\wamp\www\liceo\index.php on line 14
+[24-Jan-2017 09:09:04 UTC] PHP Stack trace:
+[24-Jan-2017 09:09:04 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\calendario.php:0
+[24-Jan-2017 09:09:04 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\calendario.php:89
+[24-Jan-2017 09:09:04 UTC] PHP   3. require() C:\wamp\www\pruebamoliere\boss\nav.php:10
+[24-Jan-2017 09:09:04 UTC] PHP   4. define() C:\wamp\www\liceo\index.php:14
+[24-Jan-2017 09:22:21 UTC] PHP Warning:  require_once(./admin.php): failed to open stream: No such file or directory in C:\wamp\www\pruebamoliere\boss\nav.php on line 11
+[24-Jan-2017 09:22:21 UTC] PHP Stack trace:
+[24-Jan-2017 09:22:21 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\calendario.php:0
+[24-Jan-2017 09:22:21 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\calendario.php:89
+[24-Jan-2017 09:22:21 UTC] PHP Fatal error:  require_once(): Failed opening required './admin.php' (include_path='.;C:\php\pear') in C:\wamp\www\pruebamoliere\boss\nav.php on line 11
+[24-Jan-2017 09:22:21 UTC] PHP Stack trace:
+[24-Jan-2017 09:22:21 UTC] PHP   1. {main}() C:\wamp\www\pruebamoliere\boss\calendario.php:0
+[24-Jan-2017 09:22:21 UTC] PHP   2. include_once() C:\wamp\www\pruebamoliere\boss\calendario.php:89
+[03-Feb-2017 11:55:18 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp\www\liceo\wp-content\themes\fusion\functions.php on line 140
+[03-Feb-2017 11:55:18 UTC] PHP Stack trace:
+[03-Feb-2017 11:55:18 UTC] PHP   1. {main}() C:\wamp\www\framol\boss\acceso.php:0
+[03-Feb-2017 11:55:18 UTC] PHP   2. include() C:\wamp\www\framol\boss\acceso.php:9
+[03-Feb-2017 11:55:18 UTC] PHP   3. require_once() C:\wamp\www\liceo\wp-load.php:37
+[03-Feb-2017 11:55:18 UTC] PHP   4. require_once() C:\wamp\www\liceo\wp-config.php:83
+[03-Feb-2017 11:55:23 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\wamp\www\liceo\wp-content\themes\fusion\functions.php on line 140
+[03-Feb-2017 11:55:23 UTC] PHP Stack trace:
+[03-Feb-2017 11:55:23 UTC] PHP   1. {main}() C:\wamp\www\framol\boss\calendario.php:0
+[03-Feb-2017 11:55:23 UTC] PHP   2. include_once() C:\wamp\www\framol\boss\calendario.php:89
+[03-Feb-2017 11:55:23 UTC] PHP   3. require() C:\wamp\www\framol\boss\nav.php:7
+[03-Feb-2017 11:55:23 UTC] PHP   4. require_once() C:\wamp\www\liceo\wp-load.php:37
+[03-Feb-2017 11:55:23 UTC] PHP   5. require_once() C:\wamp\www\liceo\wp-config.php:83
+[03-Feb-2017 11:55:55 UTC] PHP Fatal error:  Maximum function nesting level of '100' reached, aborting! in C:\wamp\www\liceo\wp-includes\class-phpass.php on line 93
+[03-Feb-2017 11:55:55 UTC] PHP Stack trace:
+[03-Feb-2017 11:55:55 UTC] PHP   1. {main}() C:\wamp\www\framol\boss\acceso.php:0
+[03-Feb-2017 11:55:55 UTC] PHP   2. wp_signon() C:\wamp\www\framol\boss\acceso.php:23
+[03-Feb-2017 11:55:55 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[03-Feb-2017 11:55:55 UTC] PHP   4. apply_filters() C:\wamp\www\liceo\wp-includes\pluggable.php:522
+[03-Feb-2017 11:55:55 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP   6. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP   7. wp_authenticate_username_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP   8. wp_check_password() C:\wamp\www\liceo\wp-includes\user.php:162
+[03-Feb-2017 11:55:55 UTC] PHP   9. apply_filters() C:\wamp\www\liceo\wp-includes\pluggable.php:2128
+[03-Feb-2017 11:55:55 UTC] PHP  10. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  11. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  12. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  13. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  14. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  15. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  16. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  17. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  18. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  19. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  20. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  21. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  22. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  23. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  24. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  25. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  26. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  27. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  28. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  29. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  30. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  31. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  32. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  33. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  34. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  35. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  36. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  37. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  38. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  39. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  40. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  41. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  42. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  43. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  44. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  45. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  46. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  47. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  48. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  49. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  50. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  51. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  52. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  53. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  54. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  55. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  56. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  57. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  58. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  59. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  60. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  61. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  62. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  63. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  64. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  65. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  66. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  67. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  68. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  69. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  70. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  71. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  72. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  73. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  74. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  75. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  76. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  77. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  78. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  79. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  80. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  81. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  82. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  83. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  84. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  85. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  86. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  87. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  88. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  89. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  90. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  91. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  92. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  93. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:55:55 UTC] PHP  94. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:55:55 UTC] PHP  95. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  96. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:55:55 UTC] PHP  97. PasswordHash->CheckPassword() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:134
+[03-Feb-2017 11:55:55 UTC] PHP  98. PasswordHash->crypt_private() C:\wamp\www\liceo\wp-includes\class-phpass.php:270
+[03-Feb-2017 11:55:55 UTC] PHP  99. PasswordHash->encode64() C:\wamp\www\liceo\wp-includes\class-phpass.php:161
+[03-Feb-2017 11:56:27 UTC] PHP Fatal error:  Maximum function nesting level of '100' reached, aborting! in C:\wamp\www\liceo\wp-includes\class-phpass.php on line 93
+[03-Feb-2017 11:56:27 UTC] PHP Stack trace:
+[03-Feb-2017 11:56:27 UTC] PHP   1. {main}() C:\wamp\www\framol\boss\acceso.php:0
+[03-Feb-2017 11:56:27 UTC] PHP   2. wp_signon() C:\wamp\www\framol\boss\acceso.php:23
+[03-Feb-2017 11:56:27 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[03-Feb-2017 11:56:27 UTC] PHP   4. apply_filters() C:\wamp\www\liceo\wp-includes\pluggable.php:522
+[03-Feb-2017 11:56:27 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP   6. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP   7. wp_authenticate_username_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP   8. wp_check_password() C:\wamp\www\liceo\wp-includes\user.php:162
+[03-Feb-2017 11:56:27 UTC] PHP   9. apply_filters() C:\wamp\www\liceo\wp-includes\pluggable.php:2128
+[03-Feb-2017 11:56:27 UTC] PHP  10. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  11. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  12. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  13. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  14. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  15. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  16. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  17. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  18. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  19. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  20. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  21. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  22. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  23. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  24. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  25. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  26. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  27. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  28. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  29. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  30. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  31. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  32. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  33. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  34. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  35. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  36. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  37. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  38. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  39. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  40. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  41. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  42. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  43. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  44. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  45. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  46. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  47. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  48. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  49. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  50. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  51. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  52. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  53. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  54. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  55. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  56. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  57. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  58. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  59. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  60. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  61. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  62. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  63. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  64. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  65. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  66. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  67. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  68. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  69. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  70. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  71. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  72. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  73. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  74. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  75. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  76. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  77. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  78. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  79. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  80. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  81. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  82. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  83. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  84. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  85. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  86. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  87. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  88. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  89. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  90. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  91. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  92. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  93. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:137
+[03-Feb-2017 11:56:27 UTC] PHP  94. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:56:27 UTC] PHP  95. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  96. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:56:27 UTC] PHP  97. PasswordHash->CheckPassword() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:134
+[03-Feb-2017 11:56:27 UTC] PHP  98. PasswordHash->crypt_private() C:\wamp\www\liceo\wp-includes\class-phpass.php:270
+[03-Feb-2017 11:56:27 UTC] PHP  99. PasswordHash->encode64() C:\wamp\www\liceo\wp-includes\class-phpass.php:161
+[03-Feb-2017 11:58:03 UTC] PHP Fatal error:  Maximum function nesting level of '100' reached, aborting! in C:\wamp\www\liceo\wp-content\themes\fusion\functions.php on line 298
+[03-Feb-2017 11:58:03 UTC] PHP Stack trace:
+[03-Feb-2017 11:58:03 UTC] PHP   1. {main}() C:\wamp\www\framol\boss\acceso.php:0
+[03-Feb-2017 11:58:03 UTC] PHP   2. wp_signon() C:\wamp\www\framol\boss\acceso.php:23
+[03-Feb-2017 11:58:03 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[03-Feb-2017 11:58:03 UTC] PHP   4. apply_filters() C:\wamp\www\liceo\wp-includes\pluggable.php:522
+[03-Feb-2017 11:58:03 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP   6. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP   7. wp_authenticate_username_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP   8. wp_check_password() C:\wamp\www\liceo\wp-includes\user.php:162
+[03-Feb-2017 11:58:03 UTC] PHP   9. apply_filters() C:\wamp\www\liceo\wp-includes\pluggable.php:2128
+[03-Feb-2017 11:58:03 UTC] PHP  10. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  11. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  12. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  13. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  14. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  15. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  16. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  17. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  18. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  19. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  20. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  21. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  22. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  23. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  24. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  25. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  26. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  27. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  28. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  29. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  30. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  31. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  32. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  33. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  34. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  35. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  36. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  37. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  38. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  39. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  40. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  41. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  42. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  43. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  44. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  45. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  46. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  47. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  48. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  49. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  50. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  51. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  52. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  53. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  54. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  55. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  56. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  57. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  58. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  59. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  60. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  61. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  62. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  63. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  64. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  65. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  66. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  67. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  68. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  69. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  70. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  71. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  72. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  73. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  74. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  75. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  76. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  77. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  78. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  79. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  80. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  81. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  82. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  83. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  84. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  85. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  86. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  87. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  88. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  89. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  90. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  91. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  92. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  93. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  94. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  95. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  96. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:58:03 UTC] PHP  97. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:58:03 UTC] PHP  98. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:58:03 UTC] PHP  99. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP Fatal error:  Maximum function nesting level of '100' reached, aborting! in C:\wamp\www\liceo\wp-content\themes\fusion\functions.php on line 298
+[03-Feb-2017 11:59:21 UTC] PHP Stack trace:
+[03-Feb-2017 11:59:21 UTC] PHP   1. {main}() C:\wamp\www\framol\boss\acceso.php:0
+[03-Feb-2017 11:59:21 UTC] PHP   2. wp_signon() C:\wamp\www\framol\boss\acceso.php:23
+[03-Feb-2017 11:59:21 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[03-Feb-2017 11:59:21 UTC] PHP   4. apply_filters() C:\wamp\www\liceo\wp-includes\pluggable.php:522
+[03-Feb-2017 11:59:21 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP   6. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP   7. wp_authenticate_username_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP   8. wp_check_password() C:\wamp\www\liceo\wp-includes\user.php:162
+[03-Feb-2017 11:59:21 UTC] PHP   9. apply_filters() C:\wamp\www\liceo\wp-includes\pluggable.php:2128
+[03-Feb-2017 11:59:21 UTC] PHP  10. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  11. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  12. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  13. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  14. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  15. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  16. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  17. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  18. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  19. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  20. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  21. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  22. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  23. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  24. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  25. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  26. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  27. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  28. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  29. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  30. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  31. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  32. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  33. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  34. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  35. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  36. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  37. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  38. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  39. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  40. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  41. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  42. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  43. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  44. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  45. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  46. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  47. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  48. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  49. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  50. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  51. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  52. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  53. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  54. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  55. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  56. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  57. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  58. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  59. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  60. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  61. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  62. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  63. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  64. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  65. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  66. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  67. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  68. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  69. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  70. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  71. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  72. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  73. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  74. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  75. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  76. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  77. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  78. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  79. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  80. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  81. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  82. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  83. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  84. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  85. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  86. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  87. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  88. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  89. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  90. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  91. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  92. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  93. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  94. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  95. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  96. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 11:59:21 UTC] PHP  97. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 11:59:21 UTC] PHP  98. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 11:59:21 UTC] PHP  99. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP Fatal error:  Maximum function nesting level of '100' reached, aborting! in C:\wamp\www\liceo\wp-content\themes\fusion\functions.php on line 298
+[03-Feb-2017 12:01:44 UTC] PHP Stack trace:
+[03-Feb-2017 12:01:44 UTC] PHP   1. {main}() C:\wamp\www\framol\boss\acceso.php:0
+[03-Feb-2017 12:01:44 UTC] PHP   2. wp_signon() C:\wamp\www\framol\boss\acceso.php:23
+[03-Feb-2017 12:01:44 UTC] PHP   3. wp_authenticate() C:\wamp\www\liceo\wp-includes\user.php:85
+[03-Feb-2017 12:01:44 UTC] PHP   4. apply_filters() C:\wamp\www\liceo\wp-includes\pluggable.php:522
+[03-Feb-2017 12:01:44 UTC] PHP   5. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP   6. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP   7. wp_authenticate_username_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP   8. wp_check_password() C:\wamp\www\liceo\wp-includes\user.php:162
+[03-Feb-2017 12:01:44 UTC] PHP   9. apply_filters() C:\wamp\www\liceo\wp-includes\pluggable.php:2128
+[03-Feb-2017 12:01:44 UTC] PHP  10. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  11. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  12. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  13. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  14. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  15. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  16. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  17. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  18. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  19. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  20. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  21. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  22. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  23. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  24. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  25. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  26. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  27. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  28. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  29. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  30. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  31. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  32. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  33. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  34. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  35. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  36. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  37. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  38. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  39. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  40. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  41. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  42. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  43. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  44. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  45. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  46. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  47. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  48. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  49. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  50. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  51. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  52. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  53. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  54. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  55. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  56. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  57. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  58. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  59. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  60. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  61. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  62. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  63. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  64. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  65. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  66. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  67. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  68. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  69. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  70. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  71. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  72. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  73. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  74. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  75. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  76. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  77. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  78. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  79. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  80. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  81. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  82. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  83. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  84. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  85. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  86. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  87. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  88. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  89. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  90. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  91. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  92. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  93. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  94. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  95. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  96. mi_check_password() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298
+[03-Feb-2017 12:01:44 UTC] PHP  97. apply_filters() C:\wamp\www\liceo\wp-content\themes\fusion\functions.php:124
+[03-Feb-2017 12:01:44 UTC] PHP  98. WP_Hook->apply_filters() C:\wamp\www\liceo\wp-includes\plugin.php:203
+[03-Feb-2017 12:01:44 UTC] PHP  99. call_user_func_array() C:\wamp\www\liceo\wp-includes\class-wp-hook.php:298

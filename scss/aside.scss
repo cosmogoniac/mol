@@ -1,0 +1,122 @@
+aside {
+    display:flex;
+    flex-direction:column;
+    flex-basis:20%;
+    font-size: 1.3em;
+    padding-left:1em;
+}
+aside h3::first-letter {
+    background-color: #c01f39;
+    color: #fff;
+    font-size: 1.6em;
+}
+aside h3 {
+    margin-top: 0.6em;
+}
+
+aside ul {
+    list-style: outside none none;
+}
+
+aside li {
+    border-bottom: 1px solid #ddd;
+    padding: 0.4em 0;
+}
+aside div:first-child {
+    margin-top: 2em;
+}
+aside .buscar input {
+    background-color: rgba(137, 138, 153, 0.1);
+    color: #777;
+    font-size: 0.8em;
+    width: 90%;
+}
+aside .flecha {
+    color: #898a99;
+    cursor:pointer;
+    font-size: 0.8em;
+    margin-left: -23px;
+    transition: all 0.5s ease-in-out 0s;
+}
+aside .flecha:hover{
+	color:#777;
+}
+
+aside a:hover{
+    text-shadow:1px 1px 2px #c01f39;
+}
+section{
+    position: relative;
+}
+section .cruzada {
+    background-color: rgba(0, 0, 0, 0.8);
+    color:white;
+    left: 20%;
+    padding: 1em;
+    position: absolute;
+    width: 60%;
+    z-index:200;
+}
+section .cruzada .entry{
+    color:#fff;
+}
+section .cruzada .entry:hover{
+    color:red;
+}
+section .cruzada .entry h3{
+    color:white;
+    font-size:1em;
+}
+section .cruzada .entry h3:hover{
+    color:#c01f39;
+}
+section .cruzada .entry .ladate{
+    color:white;
+    font-size:0.6em;
+}
+section .cruzada .cierra{
+    position:absolute;
+    right:0.1em;
+    top:0.1em;
+}
+section .cruzada .cierra:hover{
+    color: #c01f39;
+}
+.tapando{
+    display:none;
+    height:0;
+    width: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;    
+}
+.tapando.on {
+    display:block;
+    height: 100vh;
+    width: 100%;
+    z-index:7;
+}
+.tapando > img {
+    background-image: url("http://cineymusica.es/otros/moliere/images/cargando.gif");
+  /*background-image: url("http://cineymusica.es/otros/framol/images/cargando.gif");*/
+    height: 20px;
+    left: 40%;
+    position: absolute;
+    top: 30%;
+    width: 20px;
+    z-index: 5;
+}
+@media all and (max-width: 80em) {
+    aside div:first-child {
+        margin-top: 1em;
+    }
+}
+@media all and (max-width: 42em) {
+    section,aside{
+        flex-basis:100%!important;
+        margin:0 1em;
+    }
+}

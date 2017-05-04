@@ -1,0 +1,207 @@
+div.banda .literal, header .coord, section.inscripciones, section.director, section.titulos, .somos, section.metodo, section.idiomas, section.horario, section.organigrama, section.calendrier, section.menus, section.actividades, section.libros, section.contacto, section.agenda, section.frances { -ms-flex-preferred-size: 70%; flex-basis: 70%; }
+
+div.enz, div.banda-iconos div, div.arriba, a:hover, .clack, .direccion, nav.reduciendo, .cierre, .cruzada .cierra, .flecha, .enviar, .limpiar, .meses ul li, .horarios .clases ul li, .horario .clases ul li, .menus .annee .mes .dia .last, .dia > div:first-child:hover, div.btn { cursor: pointer; }
+
+body, .menus .annee .mes { font-size: 1em; }
+
+.cierre, div.banda { font-size: 2em; }
+
+div.lasnews .news h3 { font-size: 1.8em; }
+
+div.enz i, div.banda-iconos div i { font-size: 4em; }
+
+div.tablon .tbl { font-size: 1.4em; }
+
+div.lasnews .news p { font-size: 0.8em; }
+
+div.enz i, div.ladate, .principal .first-level a:hover, .permalink a:not(.nosign):hover, nav.principal ul.first-level > li:hover, .globo a, .entry a:hover, .mois.activo .litermes .diames, .razon li a { color: #c01f39; }
+
+div.arriba, div.banda, div.banda-iconos, .principal .first-level a:before, .permalink a:not(.nosign):before, .avn .globo:nth-child(odd) > a, .btn, .razon span, .enviar, .limpiar, .mesActive, .menus .annee .mes .last:not(.festivo):hover, .dia.prendido > div:first-child, .dia > div:first-child:hover { background-color: #c01f39; }
+
+.globo a, div.header { background-color: #fff; }
+
+.globo.gris a, div.arriba, div.banda-iconos, div.banda-iconos a, .avn .globo:nth-child(even) > a, .avn .globo:nth-child(odd) > a, header, header .social-links a:hover, .razon span { color: #fff; }
+
+.razon li a:hover { color: #000; }
+
+.mois, .menus .oculto, .menus .annee .mes { display: none; }
+
+div#container, div.banda, div.banda-iconos, div.banda-iconos div, div.enlaces, div.navegacion, div.noticias .lasnews, .news, div.lasnews .news, div.separacion, div.tablon, footer, footer div, header, header .coord, header .social-links, nav.principal ul.first-level, nav.principal ul.first-level li:hover > ul, .avn, .footer, .vidcuad, .vidcuad .cuadro, nav.principal ul.first-level, .somos, .statis, .tabla .tres, .botones, .entera, form.inscripcion, section.inscripciones, .biparrafo, .envio, .inscription, form.inscripcion div.alumno, form.inscripcion div.progenitor, section.director, .razones, .perenne, .menus .dosbloques, .menus, .menus .annee .mes.actif, section.horario, .menus .dia, .menus .dosbloques, .menus, .menus .annee .mes.actif, .mes.actif, section .botones, .triparrafo, section.rutasautobus { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+form.inscripcion, .parrafo.inscription, .separacion, .biparrafo { -ms-flex-preferred-size: 100%; flex-basis: 100%; }
+
+div#container, div.banda-iconos div, .news, div.lasnews .news, footer div, nav.principal ul.first-level li:hover > ul, .avn, form.inscripcion div.alumno, form.inscripcion div.progenitor { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+div.banda, div.banda-iconos, div.enlaces, div.navegacion, div.noticias .lasnews, div.tablon, footer, footer div, header .coord, header .social-links, nav.principal ul.first-level, .avn, .vidcuad, .vidcuad .cuadro, .somos, .statis, .botones, form.inscripcion, .biparrafo, .inscription, .razones, .perenne, .menus .dia, section .botones, .biparrafo, .triparrafo { -ms-flex-pack: distribute; justify-content: space-around; }
+
+div.lasnews .news, header, section.menus, section.menus { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+div.banda-iconos, div.noticias .lasnews div.tablon, footer, .vidcuad .cuadro, div.enlaces, .vidcuad, div.banda, .somos, .statis, .entera, form.inscripcion, section.inscripciones, .envio, .inscription, section.director, .razones, .biparrafo, .idiomas .botones, .menus, section.menus, div.lasnews, section.horario, section.calendrier .annee, section .botones, .separacion, .triparrafo, section.rutasautobus { -ms-flex-flow: row wrap; flex-flow: row wrap; }
+
+div.banda > span, nav.principal, .sprite.flag-france, nav.reduciendo > * { -ms-flex-item-align: center; align-self: center; }
+
+figure.actiu, .direccion:hover, .horas.active, .menu.active { opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+
+.menu { opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -webkit-transition: all 0.5s ease-in-out 0s; transition: all 0.5s ease-in-out 0s; }
+
+.menu:nth-child(odd) { -ms-flex-item-align: flex-start; align-self: flex-start; }
+
+.menus .dosbloques { -webkit-align-content: flex-start; align-content: flex-start; }
+
+.meses ul li { -webkit-transition: all 0.2s ease; transition: all 0.2s ease; }
+
+.direccion, .enz.clack a i, .enz.clack h3, header .social-links a, .enviar, .limpiar, .menus .annee .mes .last, .dia > div:first-child:hover, div.btn { -webkit-transition: all 0.5s ease; transition: all 0.5s ease; }
+
+.news, .news > *:not(.permalink), div.lasnews .news, div.enz, form.inscripcion div, .parrafo.inscripcion, section.titulos, .director .parrafo, section.metodo, section.idiomas, section.horario, .perenne, .tresColumnas, .perenne > span, .horarios, .biparrafo .parrafo, .menus .activo, section.agenda, section.frances, .menus .annee, .menus .dia, .menus .annee, .separacion .mid { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+
+@media all and (max-width: 44em) { section.menus { -ms-flex-item-align: center; align-self: start; }
+  section.menus .dia *:last-child, section.menus .dia *:nth-child(2), section.menus .dia.nohab { display: none !important; }
+  section.calendrier, .mes.actif { -ms-flex-preferred-size: 100%; flex-basis: 100%; }
+  .mes { -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0; }
+  .mes.actif { -ms-flex-flow: row wrap !important; flex-flow: row wrap !important; } }
+
+blockquote { font-family: "PT Serif",serif; font-size: 17px; font-style: italic; margin: 30px 50px; position: relative; }
+
+section { -ms-flex-preferred-size: 70%; -webkit-flex-basis: 70%; flex-basis: 70%; font-size: 1.2em; }
+
+section.organigrama { text-align: center; }
+
+section .botones { line-height: 2em; margin-bottom: 2em; flex-basis: 100%; justify-content: space-around; }
+
+section .cruzada { display: none; }
+
+section > div { margin-top: 2em; }
+
+section > div:nth-child(2):not(.razon) { margin-top: 0; }
+
+.botones .btn > a i { margin-right: 0.4em; }
+
+.btn { background-color: #c01f39; color: #fff; padding: 0.5em; text-align: center; }
+
+.btn:hover { background-color: #444444; cursor: pointer; }
+
+.btn a:link, .btn a:active, .btn a:visited { color: #fff; }
+
+.btn:hover a { color: #c01f39; }
+
+.biparrafo { line-height: 2em; }
+
+.biparrafo > * { -ms-flex-preferred-size: 45%; -webkit-flex-basis: 45%; flex-basis: 45%; }
+
+.biparrafo.min > p:first-child { flex-basis: 24%; }
+
+.biparrafo.min > p:last-child { flex-basis: 60%; }
+
+.biparrafo.min p img { max-width: 100%; }
+
+.cuadrado { background-color: #ddd; border: 1px solid; margin: 1em 2em; padding: 2em; }
+
+.despues .biparrafo { background-color: #eee; margin: 0 1em; }
+
+.despues .biparrafo li { font-size: 0.8em; list-style: inside none disc; margin-left: 1em; }
+
+.despues .biparrafo li:not(:last-child) { border-bottom: 1px solid; }
+
+.despues .biparrafo .parrafo > p { background-color: #ccc; border-bottom: 1px solid; font-weight: bold; margin: 0; text-align: right; text-shadow: 2px 2px 1px white; }
+
+.despues .biparrafo .parrafo:nth-child(2n) { background-color: #ddd; }
+
+.elprezi iframe { width: 96%; }
+
+.enlaces .parrafo ul.lista-s li { list-style: outside none none; }
+
+.enlaces ul.lista-s li i { color: #ddd; }
+
+.enlaces .lista-s a { font-size: 0.8em; margin-left: 0.5em; }
+
+.enlaces .parrafo ul.lista-s > li { font-size: 0.8em; margin-left: 1em; }
+
+.meto2Vid iframe { height: 100%; width: 100%; }
+
+.onnews { background: #eee none repeat scroll 0 0; margin-bottom: 2em; padding: 1em; }
+
+.organizadas > div { border: 1px solid; display: none; margin: 1em; padding: 1em; }
+
+.organizadas .feprec { background-color: #eee; display: flex; flex-flow: row wrap; justify-content: space-around; }
+
+.organizadas .feprec > span { border-bottom: 1px solid; flex-basis: 50%; text-align: right; }
+
+.organizadas .feprec > span:first-child { background: #ddd none repeat scroll 0 0; border-bottom: 1px solid; flex-basis: 48%; padding-right: 2%; }
+
+.organizadas .active { display: block; }
+
+.paginacion { display: flex; flex-flow: row wrap; font-size: 1.3em; justify-content: center; }
+
+.pagina { border: 1px solid; display: none; cursor: pointer; margin: 0 1em; padding: 0.2em; }
+
+.pagtiva { display: block; color: red; box-shadow: 1px 1px 1px black; }
+
+.pagina.numefix { display: block; }
+
+.parrafo > p { line-height: 2em; margin-top: 1.5em; padding: 0 1em; }
+
+.parrafo > p > img { width: 100%; }
+
+.parrafo ul.lista-s > li { list-style: inside none disc; margin-left: 2em; }
+
+.parrafo h3 { padding: 0 1em; }
+
+.parrafo h5 { margin-left: 1em; }
+
+.parrafo .btn { margin: 1em; }
+
+.parrafo.marcalink { display: flex; justify-content: space-around; }
+
+.parrafo.marcalink.noflex { display: block; }
+
+.parrafo .video { border-bottom: 1px solid #777; padding-bottom: 2em; }
+
+.parrafo .video iframe { height: 300px; width: 100%; }
+
+.parrafo.spetial { margin-right: 3%; padding: 0; text-align: center; }
+
+.parrafo.spetial.cuadrado > h3 { font-size: 1.1em; }
+
+.parrafo.marcalink *:not(.btn) > a { color: #c01f39; }
+
+.parrafo.marcalink a:hover { text-shadow: 1px 1px 2px black; }
+
+.parragraphe > p { margin: 0 2em; }
+
+.rayado { background-color: #eee; border: 1px solid #c01f39; margin: 1em 3em; padding: 1em; }
+
+.rayado .separacion { font-size: 1.1em; margin: 1em 0; }
+
+.triparrafo p:nth-child(3) { background-color: #eee; }
+
+.triparrafo > h3 { -ms-flex-preferred-size: 90%; -webkit-flex-basis: 90%; flex-basis: 90%; font-size: 2em; }
+
+.triparrafo > p { -ms-flex-preferred-size: 30%; -webkit-flex-basis: 30%; flex-basis: 30%; margin-top: 2em; }
+
+.triparrafo p span { color: #c01f39; }
+
+.vacaciones > ul { display: flex; flex-flow: row wrap; justify-content: space-around; list-style: outside none none; }
+
+.vacaciones li { background-color: #eee; border: 1px solid; cursor: pointer; padding: 0.2em; -webkit-transition: all 0.5s ease-in-out 0s; transition: all 0.5s ease-in-out 0s; }
+
+.vacaciones li.active, .vacaciones li:hover { background-color: #c01f39; color: white; }
+
+@media all and (max-width: 70em) { .triparrafo > h3 { font-size: 1.4em; } }
+
+@media all and (max-width: 54em) { .parragraphe, .lostextos, .meto2Vid { flex-basis: 100%; } }
+
+@media all and (max-width: 46em) { section > div { margin-top: 1em; }
+  .biparrafo > * { -ms-flex-preferred-size: 100%; flex-basis: 100%; }
+  .parrafo { padding: 0 1em; }
+  .parrafo.spetial { margin: 1%; }
+  .parragraphe > p { margin: 1em; }
+  .parrafo p { padding: 0; }
+  .rayado { margin: 1em; } }
+
+@media all and (max-width: 35em) { .biparrafo.min > p:first-child { flex-basis: 100%; text-align: center; }
+  .biparrafo.min > p:last-child { flex-basis: 100%; } }
+
+@media all and (max-width: 32em) { .triparrafo > p { -ms-flex-preferred-size: 90%; -webkit-flex-basis: 90%; flex-basis: 90%; } }
+
+@media all and (max-width: 28em) { h1 { font-size: 1.5em; }
+  .parrafo { padding: 0; } }

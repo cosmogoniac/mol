@@ -1,0 +1,1539 @@
+@import 'base';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto,Arial;
+}
+
+a:link, a:visited, a:active {
+  color: $color3;
+  text-decoration: none;
+}
+
+div#container > div:not(.copy) {
+  margin-bottom: $tfUno;
+}
+
+div.arriba {
+  border-radius: $cien50;
+  bottom: 2%;
+  @include sombraArriba;
+  padding: 0.6%;
+  position: fixed;
+  right: 2%;
+  opacity: 0;
+  @include transicion1;
+  z-index: -1;
+}
+
+div.arriba:hover {
+  background-color: $hover;
+}
+
+div.banda {
+  color: $colorE;
+  padding: $tfUno;
+}
+
+div.banda-iconos {
+  font-size: $tfUnDos;
+}
+
+div.banda-iconos div:hover a,div.banda-iconos div:hover{
+  @include sombraTexto;
+  color:$color3;
+}
+
+div.banda-iconos span {
+  margin-top: 10px;
+}
+
+div.banda-iconos div i {
+  text-align: center;
+}
+div.banda-iconos div {
+  padding: $tfUnDos 0;
+}
+
+div.enz {
+  border: 1px solid $colorE;
+  -ms-flex-preferred-size: 16%;
+      flex-basis: 16%;
+  padding: $tfDos $tfTres;
+  text-align: center;
+}
+
+div.enz i {
+  display: block;
+}
+div.header {
+  @include sombraCaja;
+  position: fixed;
+  top: 0;
+  width: $cien100;
+  z-index: 4;
+}
+
+div.main {
+  border-top: 1px solid $colorE;
+  padding: 8px;
+  position: relative;
+  // height: 80vh;
+}
+
+div.separacion{
+  @include ocupaTodo;
+}
+
+div.lasnews .news {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  padding: $tfUno $tfDos;
+}
+
+div.lasnews .news h3 {
+  color: $colorH3;
+  padding-top: $tfUno;
+}
+
+div.lasnews .news *:not(.permalink) {
+  padding-bottom: $tfUno;
+}
+
+div.lasnews .news p {
+  font-size: $tfUnTres;
+  line-height: $tfUnCinco;
+}
+
+div.ladate {
+  font-size: $tfUnCuatro;
+}
+
+div.espacio-logo {
+  text-align: center;
+}
+
+div.separacion {
+  padding: $tfUno $tfDos;
+}
+
+div.separacion .line, div.separacion .mid {
+  border-top: 1px solid $colorTema;
+  flex-grow: 1;
+}
+
+div.separacion .liter {
+  -ms-flex-item-align: top;
+      align-self: top;
+}
+
+div.tablon .tbl {
+  border: 1px solid #aaa;
+  padding: $tfUno;
+}
+
+div.tablon div {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+footer {
+  background:$colorFofito;
+  color: $colorH3hover;
+  font-size: $tfUnCinco;
+  padding:$tfDos 0;
+}
+form.inscripcion div {
+    flex-basis: 40%;
+    margin-left: $tfUno;
+}
+form textarea {
+    background-color: #eeeeee;
+    display: block;
+    font-size: 1.2em;
+    width: 100%;
+}
+form div input:not([type="submit"]) {
+    background-color: rgb(242, 242, 242);
+    font-size: $tfUno;
+    height: $tfTres;
+    margin-bottom: $tfUno;
+}
+
+figure.imagenes {
+  opacity:0;
+  height: 0;
+  text-align: center;
+  transition: opacity linear 0.5s;
+}
+
+figure.imagenes.actiu{
+  opacity:1;
+}
+
+header {
+  background-color:$miniCab;
+  font-size:$tfO8;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  line-height: $tfTres;
+}
+
+header .coord .phone {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  text-align: right;
+}
+
+header .coord .mail {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+header .coord span i {
+  padding-right: 0.4em;
+}
+
+header .social-links {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+h3{
+  color: $colorH3;
+  font-size: $tfDos;
+}
+
+hr {
+    color: rgb(192, 31, 57);
+    margin: $tfDos auto;
+    width: 72%;
+}
+
+nav ul {
+  list-style: none;
+  z-index: 2;
+}
+
+nav.principal ul.first-level > li {
+  border-right: 1px solid rgba(100, 100, 100, 0.6);
+  margin-right: 2%;
+  padding: 0 2%;  
+  text-transform: uppercase;
+}
+
+nav.principal ul.first-level li > ul {
+  display: none;
+  position: absolute;
+  padding-top: $tfUno;
+  text-transform: lowercase;
+}
+
+
+nav.principal ul.first-level li:hover > ul li {
+  background-color: $negro;
+  border-bottom: 1px solid grey;
+  color: $colorH3hover;
+  padding: 1em;
+}
+
+nav.principal ul.first-level li:hover > ul li a:hover {
+  color: $blanco;
+  @include sombraTBlanca;
+}
+
+nav.principal ul.second-level a {
+  color: $colorH3hover;
+  text-transform: capitalize;
+  @include transicionO5;
+}
+
+nav.reduciendo {
+  display: none;
+}
+section.inscripciones,section.director,section.titulos,section.metodo,section.idiomas,section.horario{
+  padding: $tfUno $tfCuatro;
+}
+section.inscripciones .separacion .lit {
+  flex-shrink: 0;
+  font-size: $tfDos;
+}
+section.organigrama
+{
+  margin-top:$tfTres;
+  text-align:center;
+}
+section.menus
+{
+  justify-content:space-between;
+  margin-top:$tfTres;
+}
+section.libros{
+  margin-top:$tfTres;
+}
+select.ciego {
+  display: none;
+}
+span.diploma{
+  flex-basis:43%;
+}
+span.annee{
+  flex-basis:57%;
+}
+#container h1 {
+  color:$color3;
+  font-size: $tfTres;
+  margin-top: $tfCuatro;
+  text-align: center;
+}
+#imagenes {
+  height: 80vh;
+  overflow: hidden;
+}
+#imagenes {
+  margin-top: 9em;
+}
+#ff.direccion {
+  right: 10vw;
+}
+#rw.direccion {
+  left: 10vw;
+}
+.avn .globo {
+  display: block;
+  text-align: center;
+}
+.avn .globo:nth-child(even) > a {
+  background-color: $colorH3hover;
+}
+.avn .globo a {
+  color: $colorE;
+  display: block;
+  padding: .2em;
+  font-size: $tfUnDos;
+  line-height: $tfUnCinco;
+}
+.avn .globo a:hover {
+  color: $negro;
+}
+.biparrafo {
+    font-size: $tfUnCinco;
+    line-height: $tfDos;
+}
+.biparrafo .parrafo{
+  font-size:inherit;
+}
+.botones {
+    flex-basis: 95%;
+    margin-top:$tfDos;
+}
+.buscar input {
+    background-color: rgba(137, 138, 153, 0.1);
+    color: $colorH3hover;
+    font-size: $tfO8;
+    width: 90%;
+}
+.btn{
+  text-align:center;
+}
+.btn:hover{
+  background-color: $hover;
+
+}
+.btn:hover > a{
+  color:$colorTema;
+}
+.btn a {
+    color: $blanco;
+    font-size: $tfUnCuatro;
+    line-height: $tfTres;
+    padding: 0 $tfDos;
+}
+.btn a:hover{
+  color:$colorTema;
+}
+.btn a i{
+  padding-right:0.3em;
+}
+
+.cierre{
+  display:none;
+}
+.corrige{
+  color:rgb(192, 31, 57);
+  display: none;
+}
+.cruzada .cierra{
+    color: $miniCab;
+    font-size: $tfCuatro;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.cruzada .cierra:hover{
+  font-weight: bold;
+  color:$color3;
+}
+.cruzada {
+  display: none;
+    border: 1px solid $colorTema;
+    flex-basis: 95.4%;
+    margin-bottom:$tfUno;
+    position: relative;
+}
+
+.actividades .cuadrado {
+    background-color: #ddd;
+    border: 1px solid;
+    margin-top: 2em;
+    padding: 2em;
+}
+.direccion {
+  opacity: .6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  position: absolute;
+  top: 50vh;
+  z-index: 1;
+}
+.director .video {
+    border-bottom: 1px solid;
+    height: 12%;
+    margin-bottom: $tfUno;
+    padding-bottom: $tfUno;
+    width: 45%;
+}
+.entry {
+    margin: $tfDos $tfDos $tfDos $tfTres;
+}
+.enviar,.limpiar {
+    align-self: end;
+    color: $blanco;
+    font-size:$tfUno;
+    padding: $tfUno;
+}
+.enviar:hover,.limpiar:hover{
+  background-color:rgb(51,51,51);
+}
+.entry a{
+  color:$color3;
+}
+.envio {
+    justify-content: flex-end;
+} 
+.enz.clack:hover h3{
+  color:$colorTema;
+}
+.enz.clack:hover a i{
+    color: $color3;
+}
+.entry h3::after {
+    content: ",";
+}
+.entry h3 {
+    display: inline-block;
+    margin-right: $tfUno;
+}   
+.flecha{
+    color: $miniCab;
+    font-size: $tfO8;
+    @include soloTransicion;
+    margin-left: -23px;
+}
+.flecha:hover{
+  color:$negro;
+}
+.footer {
+  font-size: $tfUnCinco;
+  line-height: $tfTres;
+  padding-left: 20%;
+}
+.footer.copy > p {
+  @include sombraBlanco;
+}
+.globo{
+  @include soloTransicion;
+}
+.globo a:hover{
+  // background-color: $color3;
+  color: $colorTema;
+  @include sombraCaja;
+}
+.globo a {
+  border-radius: $radioCirculo;
+  font-size: $tfO8;
+  padding: $tfUno;
+}
+.globo.gris a:hover {
+  color: $negro;
+}
+.globo.gris {
+  display: block;
+  padding: $tfDos 0 0;
+  text-align: center;
+}
+.globo.gris a {
+  background-color: $gris;
+  line-height: $tfDos;
+}
+.horas {
+  border-bottom: 1px solid transparent;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    opacity: 0.2;
+    transition: all 0.2s ease 0s;
+}
+.horas.active {
+  border-bottom: 1px solid $colorTema;
+}
+.horario {
+    flex-grow: 1;
+}
+.horario .clases {
+    flex-basis: 45%;
+}
+.horario .clases ul {
+    border: 1px solid $color6;
+}
+.horario .clases ul li {
+    border: 0 none;
+}
+.horario .clases ul li {
+    border-bottom: 1px solid $color6;
+    margin-bottom: 0;
+}
+.inscription > p {
+    flex-basis: 20%;
+    margin: $tfDos;
+}
+
+.inscription > p > span,.lit span{
+  color: $colorTema;
+  font-weight: bold;
+  margin-right: $tfO5;
+}
+.imagenes > img {
+  max-width: 98vw;
+  width:$cien100;
+}
+.legend {
+  color: #8D8374;
+}
+.lostextos .mid {
+    margin-top: $tfUno;
+}
+.lostextos {
+    flex-basis:48%;
+}
+
+.marcalink p a{
+ color:$colorTema;
+}
+.marcalink p a:hover{
+  text-shadow:1px 1px 1px $negro;
+  text-decoration:underline;
+}
+.menu{
+    position:absolute;
+    margin-top:$tfCuatro;
+    z-index:0;
+}
+.menu.active{
+  display:block;
+  margin-top:0;
+  z-index:1;
+}
+.menu:nth-child(odd){
+  align-self:flex-start;
+}
+.menus .annee{
+    margin:0 2em;
+    flex-grow:1;
+  }
+.menus .annee .menu .last{
+  background-color:transparent;
+}
+.menus .annee .mes.actif .last{
+  text-align:center;
+}
+.menu ul{
+  list-style: inside none disc;
+  text-indent:1em;
+}
+.menu.active .sinadorno {
+    color: $color6;
+    font-style: italic;
+    list-style: outside none none;
+    font-size:80%;
+}
+.menu.active .dia{
+  opacity:0;
+}
+.mois.activo .litermes {
+    border: 1px solid;
+    font-size:1.2em;
+    text-align:center;
+}
+.mois.activo .litermes .diames {
+    margin: $tfUno;
+}
+.menus .annee .mes .last:not(.festivo):hover::before{
+  content:"....Pulsa....";
+  color: $blanco;
+  font-style:italic;
+  font-size:70%;
+}
+.menus .annee .dia{
+  border-bottom:1px solid;
+  font-size:$tfUno;
+}
+.menus .annee .dia.prendido>div:first-child{
+  color:$blanco;
+}
+.menus .dosbloques {
+    align-content: flex-start;
+}
+
+.menus .dosbloques .lesmenus {
+    flex-basis: 30%;
+    padding-left:10%;       
+}  
+
+.menus .dia{
+  border:0;
+}
+
+.menus .mois.activo {
+    display: block;
+    border-left: 1px solid;
+    font-size:1em;
+    position: relative;
+}
+
+.menus .losmenus{
+  flex-basis:40%;
+  margin-left:1em;
+}
+.menus .oculto{
+  font-size:$tfUno;
+}
+.meto2Vid {
+    width: $cien50;
+}   
+.meto2Vid iframe {
+    height: $cien100;
+    width: $cien100;
+}
+.mesActive{
+  color: $blanco!important;
+}
+.meses {
+    flex-basis: 10%;
+}
+.meses ul,.clases ul {
+    list-style: outside none none;
+}
+.mesActive {
+    color: #fff !important;
+}
+.mostrar{
+  position:relative;
+}
+.mostrar div{
+  position:absolute;
+  top:$radioCirculo;
+  opacity:0;
+    -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.mostrar div.active{
+  top:0px;
+  display:block;
+  opacity:1;
+}
+.meses ul li,.clases ul li {
+    border: 1px solid $color6;
+    color: $color6;
+    margin-bottom: $tfUnCinco;
+    text-align: center;
+}
+.meses ul li:hover,.clases ul li:hover{
+  text-shadow:0 0 3px $colorTema;
+}
+.mostrar {
+    flex-basis: 80%;
+}
+.mostrar li ul li{
+    list-style-image: none;
+    list-style-position: inside;
+    list-style-type: unset;
+}
+.mostrar.horarios {
+    flex-basis: 40%;
+}
+
+.parrafo h3{
+  font-size: $tfUnTres;
+}
+.perenne {
+    flex-basis: 40%;
+}
+.perenne > span {
+    text-align: right;
+}
+.news > *:not(.permalink) {
+  background-color: rgba(200, 200, 200, 0.2);
+  padding: 0 $tfUno;
+}
+.parrafo.inscripcion {
+    color: $color3;
+    font-size: $tfUnCuatro;
+    line-height: $tfDos;
+}
+.parragraphe{color:$color3;flex-basis:45%;}
+.parragraphe .pic{text-align: center;}
+.inscription > h3 {
+    flex-basis: 95%;
+    font-size:$tfUnCinco;
+}
+.principal .first-level a, .permalink a:not(.nosign) {
+  color: $color3;
+  display: inline-block;
+  font-weight: bold;
+  position: relative;
+}
+
+.principal .first-level a {
+  font-weight: normal;
+}
+
+.principal .first-level a:before, .permalink a:not(.nosign):before {
+  bottom: 0;
+  content: "";
+  height: 3px;
+  position: absolute;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  width: 0;
+}
+
+.principal .first-level a:before {
+  bottom: -10px;
+}
+
+.principal .first-level>li>a:hover:before, .permalink a:not(.nosign):hover:before {
+  width: $cien100;
+}
+.mid {
+  margin-top: $tfUnCinco;
+}
+.parrafo {
+    color: $color3;
+    flex-basis: 34%;
+    font-size: $tfUnCuatro;
+    line-height: $tfUnSeis;
+    padding: $tfUno;
+}
+.parrafo.spetial {
+    background-color: #ddd;
+    border: 1px solid;
+    margin-right: 1em;
+}
+.parrafo > p {
+    margin-top: $tfUno;
+}
+.parrafo .marcalink > p{
+  margin-top: 0;
+}
+.rayado,.noRayado{
+    background-color: $colorE;
+    border: 1px solid $color6;
+    margin-bottom: $tfDos;
+    padding: $tfDos;
+}
+.rayado .lostextos{
+  margin-right: 2%;
+}
+.noRayado{
+  background-color:transparent;
+}
+.noRayado .lostextos{
+  margin-right:auto;
+  margin-left:2%;
+}
+.razones {
+    counter-reset: li-counter;
+    padding: $tfCuatro $tfUno $tfCuatro $tfCuatro;
+}
+.razon {
+    border: 1px solid $colorTema;
+    color: $colorH3hover;
+    flex-basis: 40%;
+    font-size: $tfUnCuatro;
+    margin-bottom: $tfUno;
+    padding: $tfDos;
+}
+.razon h3{
+  color:$color3;
+  font-size:$tfUnCuatro;
+}
+.razon h3 span::before {
+    content: counter(li-counter, decimal) " ";
+    counter-increment: li-counter;
+}
+.razon li {
+    list-style: inside none disc;
+    margin-top: $tfUno;
+  font-size: $tfUnUno;
+}
+.razon span {
+    border-radius: radioCirculo;
+    display: inline-block;
+    font-size: $tfUnCuatro;
+    margin: auto $tfO6 auto auto;
+    text-align: center;
+    width: 43px;
+}
+div.separacion{
+  margin-top:2em!important;
+}
+.selection {
+    display: none;
+    @include ocupaTodo;
+}
+.selection select{
+  // display:none;
+}
+.sidebar li {
+    border-bottom: 1px solid #eee;
+    list-style: outside none none;
+    margin-top: $tfO5;
+}
+
+.sidebar a:hover{
+  text-shadow:0 0 7px $colorTema;
+  color:$negro;
+  font-size:bold;
+}
+.sidebar {
+    flex-grow: 1;
+    font-size: $tfUnCinco;
+}
+.sidebar h3::first-letter {
+    background-color: #c01f39;
+    color: white;
+    font-size: $tfUnCinco;
+    margin-right: 0.1em;
+}
+.sidebar div:first-child{
+  margin-top:$tfDos;
+}
+.sidebar div{
+  margin-bottom:$tfDos;
+}
+.sprite {
+  background: url("../images/sprites/sprite.png") no-repeat top left;
+  width: 110px;
+  height: 90px;
+}
+
+.sprite.flag-france {
+  background-position: 0 0;
+  width: 25px;
+  height: 15px;
+}
+
+.sprite.logo {
+  background-position: 0 -25px;
+  width: 325px;
+  height: 102px;
+}
+
+.sprite.infantil-sm {
+  background-position: 0 -137px;
+  height: 112px;
+}
+
+.sprite.primaria-sm {
+  background-position: 0 -259px;
+  height: 110px;
+}
+
+.sprite.eso-sm {
+  background-position: 0 -379px;
+  height: 110px;
+}
+
+.sprite.bachiller-sm {
+  background-position: 0 -499px;
+  height: 109px;
+}
+
+.sprite.mision_laique-1 {
+  background-position: 0 -618px;
+  width: 300px;
+  height: 152px;
+}
+
+.sprite.accion-contra-hambre-2 {
+  background-position: 0 -780px;
+  width: 300px;
+  height: 112px;
+}
+
+.sprite.plano-moliere-zaragoza {
+  background-position: 0 -902px;
+  width: 350px;
+  height: 263px;
+}
+.statis {
+    @include ocupaTodo;
+    margin-top:$tfDos;
+    margin-bottom:$tfDos;
+}
+.statis .separacion .lit{
+    flex-shrink:1;
+    font-size: $tfUnCinco;
+    padding: 0 $tfUno;
+}
+.statis .separacion .lit span {
+    margin-right: $tfUno;
+}
+.tabla {
+    background-color: $colorFofito;
+    border: 1px solid $colorTema;
+    flex-basis: 40%;
+    font-size: $tfUnCinco;
+    padding: $tfUno;
+}
+.tabla .tres {
+    border-top: 1px solid $colorB;
+    font-size: 0.9em;
+    line-height: $tfDos;
+}
+.tabla .tres > span:first-child {
+    flex-basis: $cien50;
+}
+.tabla .tres:nth-child(2) {
+    font-size: $tfUnDos;
+    font-weight: bold;
+}
+.tabla .tres .annee {
+    flex-basis: 25%;
+    text-align: right;
+}
+.tabla div:nth-child(2n+1):not(.tit) {
+    background-color: rgba(192, 31, 57, 0.4);
+}
+.tableau {
+    background-color: $colorFofito;
+    border: 1px solid $colorTema;
+    @include ocupaTodo;
+    font-size: $tfUnCinco;
+    padding: $tfUno;
+}
+.tableau .dos {
+    border-top: 1px solid #bbb;
+    display: flex;
+    font-size: 0.9em;
+    line-height: $tfDos;
+}
+.tableau .dos > span:first-child {
+  flex-basis: 43%;
+}
+.tableau .dos .annee {
+    color: $color3;
+    flex-basis: 57%;
+    font-style: italic;
+    text-align: right;
+}
+.tableau div:nth-child(2n+1):not(.tit) {
+    background-color: rgba(192, 31, 57, 0.4);
+}
+.tarifas{
+  border-radius:10px;
+  font-size:90%;
+  margin-top:$tfDos;
+  text-align: center;
+}
+.tit h3{
+  font-size: $tfUno;
+}
+.tresColumnas > span:first-child::after {
+    content: " - ";
+}
+.tresColumnas {
+    flex-grow: 1;
+    text-align: right;
+}
+.idiomas .mid{
+  margin-top:$tfUno;
+}
+.idiomas .lit {
+    font-size: $tfUnOcho;
+}
+.video iframe {
+  height: $cien100;
+  width: 200%;
+}
+.vidcuad .cuadro {
+  -ms-flex-preferred-size: 22%;
+      flex-basis: 22%;
+}
+.vidcuad .cuadro .cd {
+  text-align: center;
+  text-transform: uppercase;
+}
+@media all and (max-width: 80em) {
+  section.inscripciones, section.director, section.titulos, section.metodo, section.idiomas, section.horario {
+    padding: 1em 2em;
+}
+  .agenda .biparrafo{
+      font-size: 1em;
+      line-height: 2.2em;
+      margin-top:3em;
+  } 
+  .agenda .biparrafo .mostrar{
+    overflow:auto;
+  }
+  .video iframe {
+    height: 100%;
+    width: 150%;
+  }
+  .vidcuad .cuadro {
+    -ms-flex-preferred-size: 28%;
+        flex-basis: 28%;
+  }
+  .somos .parrafo{
+    flex-basis:42%;
+  }
+
+
+}
+@media all and (max-width: 70em) {
+  nav.principal{
+    flex-grow:1;
+  }
+  nav.principal ul.first-level > li{
+    margin-right:0%;
+    font-size:0.8em;
+    padding: 0 1%;
+  }
+  section.inscripciones, section.director, section.titulos, .somos, section.metodo, section.idiomas, section.horario, section.organigrama, section.calendrier,
+  section.menus, section.actividades, section.libros, section.contacto,section.agenda,section.frances
+  {
+      flex-basis: 60%;
+  } 
+  section.director .video{
+    width:75%;
+  }
+  section.director .parrafo:last-child p {
+    background-color: #eee;
+    padding: 0 1em;
+  }
+  section.frances .biparrafo .lostextos,section.frances .biparrafo .meto2Vid{
+    @include ocupaTodo;
+  }
+  .elprezi iframe{
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 62em) {
+  div.banda {
+      line-height:2em;
+      padding: 0.4em;
+  }
+  div.banda .literal{
+    font-size:0.6em;
+  }
+  div.enz{
+    padding:1em;
+  }
+  div.enz h3{
+    font-size:$tfUnDos;
+  }
+
+  div .tablon .tbl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom:$tfUno;
+  }
+  section.inscripciones, section.director, section.titulos, .somos, section.metodo, section.idiomas, section.horario, section.organigrama, section.calendrier,
+  section.menus, section.actividades, section.libros, section.contacto,section.agenda,section.frances
+  {
+      flex-basis: 75%;
+  }   
+  section.director .parrafo{
+    flex-basis: 100%;
+    padding: 1em 0;
+  }
+  section.director .parrafo:last-child p {
+    background-color: transparent;
+  }  
+  .globo a {
+    border-radius: 100px;
+    font-size: 0.6em;
+    padding: 0.9em;
+  }
+  .sidebar{
+    flex-basis:25%;
+
+  }
+  .somos .parrafo{
+    @include ocupaTodo;
+  }
+  .somos .botones .btn a{
+    font-size:1em;
+    line-height:0;
+    padding:auto;
+  }
+  
+  .sprite.logo {
+    background-position: 0 -1175px;
+    width: 299px;
+    height: 98px;
+  }
+  .sprite.infantil-sm {
+    background-position: 0 -1283px;
+    width: 90px;
+    height: 92px;
+  }
+  .sprite.primaria-sm {
+    background-position: 0 -1385px;
+    width: 90px;
+    height: 92px;
+  }
+  .sprite.eso-sm {
+    background-position: 0 -1485px;
+    width: 91px;
+    height: 92px;
+  }
+  .sprite.bachiller-sm {
+    background-position: 0 -1585px;
+    width: 90px;
+    height: 91px;
+  }
+  .sprite.mision_laique-1 {
+    background-position: 0 -2018px;
+    width: 150px;
+    height: 116px;
+  }
+  .sprite.accion-contra-hambre-2 {
+    background-position: 0 -1933px;
+    width: 200px;
+    height: 75px;
+  }
+  .sprite.plano-moliere-zaragoza {
+    background-position: 0 -1686px;
+    width: 282px;
+    height: 237px;
+  }
+  .tabla{
+    font-size:1em;
+  }
+  .video iframe {
+    height: 100%;
+    width: 120%;
+  }
+  .vidcuad .cuadro {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+  .inscription > p {
+      flex-basis: 38%;
+      margin: auto;
+  }  
+}
+
+@media all and (max-width: 60em) {
+  section.inscripciones, section.director, section.titulos, .somos, section.metodo, section.idiomas, section.horario, section.organigrama,
+  section.calendrier,section.menus, section.actividades, section.libros, section.contacto,section.agenda,section.frances
+  {
+    flex-basis: 68%;
+    padding: 1em;
+  }
+  .agenda .active > ul{
+    list-style:inside;
+  }
+
+  .agenda .biparrafo{
+    line-height:1.6em;
+  }
+
+}
+
+
+@media all and (max-width: 54em) {
+
+  section.inscripciones, section.director, section.titulos, .somos, section.metodo, section.idiomas, section.horario, section.organigrama, section.calendrier,
+  section.menus, section.actividades, section.libros, section.contacto,section.agenda,section.frances
+  {
+    flex-basis: 60%;
+  }
+  section.director .video {
+      height: 22%;
+      // width: 100%;
+  } 
+  form.inscripcion div {
+    flex-basis: 100%;
+  }
+  .parragraphe {
+      @include ocupaTodo;
+  }
+  .vidcuad .cuadro {
+    -ms-flex-preferred-size: 42%;
+        flex-basis: 42%;
+  }
+
+  .inscription > p {
+      flex-basis: 100%;
+      margin: auto;
+  }
+  .tableau{
+    font-size:$tfUno;
+  }
+}
+
+@media all and (max-width: 46em) {
+  div.banda {
+    font-size: 150%;
+  }
+  div.enz h3 {
+    font-size: 1em;
+  }
+  div.lasnews .news{
+    flex-basis: 41%;
+    padding: 1em 2em;   
+  }
+  div.tablon div {
+      @include ocupaTodo;
+  }  
+  div.main {
+    padding: 0;
+  }
+  div.enz {
+    padding:1em;
+    -ms-flex-preferred-size: 8%;
+        flex-basis: 8%;
+  }
+  div.espacio-logo {
+    display: none;
+  }
+  div.banda-iconos div i{
+    font-size:2em;
+  }
+  div.banda-iconos div span{
+    font-size:0.8em;
+  }
+  div.tablon{
+    flex-flow:row wrap;
+  }  
+  header .coord,header .social-links{
+    display: none;
+  }
+  h3 {
+      font-size: 1.3em;
+  }
+  nav.principal{
+    overflow-y: auto;
+  }
+
+  nav.principal>ul>li:first-child{
+    margin-top:2em;
+  }
+  nav.principal ul.first-level{
+    position: absolute;
+  }
+  nav.principal ul.first-level li > ul{
+    background-color: black;
+    display: block;
+  }
+  nav.principal ul.first-level li > ul li{
+    border-bottom:0!important;
+    // padding:0.2em!important;
+  }
+  nav.reduciendo {
+    background-color: $colorTema;
+    color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 2em;
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 100%;
+    display:flex;
+  }
+  nav.reduciendo i {
+    margin-right: 1em;
+  }
+  nav.principal {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: $blanco;
+      display: none;
+      height: 98vh;
+      position: fixed;
+      top: 0;
+      left:0;
+      width: 100%;
+  }
+  nav.principal ul.first-level {
+    @include aColumna;
+  }
+  nav.principal ul.first-level li > ul{
+    @include aColumna;
+    padding-top: 0;
+    position: relative;
+  }
+  nav.principal .first-level a{
+    color:white;
+  }
+  nav.principal ul.first-level li> ul li {
+    background-color: #000;
+    border-bottom: 1px solid grey;
+    color: #999;
+    padding: 1em;
+  }
+  section.inscripciones, section.director, section.titulos, .somos, section.metodo, section.idiomas, section.horario, section.organigrama, section.calendrier,
+  section.menus, section.actividades, section.libros, section.contacto,section.agenda,section.frances
+  {
+      @include ocupaTodo;
+  }     
+  section.inscripciones .separacion .lit{
+    font-size:1em;
+  }
+#container h1 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+#imagenes {
+    height: 58vh;
+}
+#imagenes,.enlaces{
+  margin-top:auto;
+}
+.botones{
+  flex-basis:auto;
+  margin-top:$tfUno;
+}
+.btn a{
+  font-size:$tfUno;
+  line-height:$tfUnDos;
+}
+.cierre {
+    color: $blanco;
+    display: block;
+    padding: 3px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}  
+
+.footer.copy {
+    font-size: 0.6em;
+}
+
+.imagenes > img {
+  max-width: 100%;
+}
+.lostextos div.separacion{
+  margin-top:0!important;
+}
+.mid {
+    margin-top: 0.7em;
+}
+.navegacion {
+    margin-top: 2em;
+}
+.frances .biparrafo{
+  font-size:1em;
+}
+.rayado, .noRayado{
+  padding:1em;
+}
+.rayado .lostextos, .noRayado .lostextos{
+  margin:auto;
+}
+.sprite.logo {
+  margin: auto;
+}
+.video {
+  -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+}
+.vidcuad .cuadro {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+}
+.video {
+    @include ocupaTodo;
+    height: 53vh;
+  }
+.video iframe {
+  height: 90%;
+  width: 100%;
+}
+.sidebar{
+  margin: 2em 3em;
+}
+.sprite.logo {
+    background-position: 0 -2143px;
+    height: 73px;
+    width: 200px;
+  } 
+
+.tabla{
+  @include ocupaTodo;
+  font-size: $tfUno;
+}
+  .agenda .biparrafo .mostrar {
+      height: 300px;
+      overflow: auto;
+  }  
+  .meses{
+    @include ocupaTodo;
+  }
+  .meses ul{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+  }
+  .meses ul li{
+    flex-basis:18%;
+  }
+}
+
+@media all and (max-width: 41em) {
+  header {
+    @include aColumna;
+  }
+  div#container > div:not(.copy){position:relative;}
+  div.main {
+    height: 58vh;
+  }
+  #imagenes {
+    height: 58vh;
+  }
+  div.banda {
+    font-size: 168%;
+  }
+  
+  div.enz {
+    @include ocupaTodo;
+    margin-bottom: 1em;
+  }
+  header{
+    height:$tfDos;
+  }
+
+  div.banda .literal {
+     @include ocupaTodo;
+   margin-bottom: 2em;
+    text-align: center;
+  }
+  div.main {
+    height: 39vh;
+  }
+
+  div.tablon .tbl {
+    @include ocupaTodo;
+    font-size: 1.3em;
+  }
+  div.tablon div {
+    @include ocupaTodo;
+  }
+  div.lasnews .news h3 {
+    padding: $tfUno;
+  }
+  div.lasnews .news h3 {
+      font-size: $tfUnTres;
+  }
+  div.lasnews .news .ladate {
+      font-size: $tfUnDos;
+  }
+
+  div.lasnews .news p {
+      line-height: $tfUnTres;
+  }
+
+  footer{
+    font-size:1em;
+  }
+  nav.reduciendo{
+    box-shadow:1px 1px 19px 1px black;
+  }
+  section.inscripciones, section.director, section.titulos, .somos, section.metodo, section.idiomas, section.horario, section.organigrama, section.calendrier,
+  section.menus, section.actividades, section.libros, section.contacto,.director .parrafo,section.agenda,section.frances
+  {
+      @include ocupaTodo;
+      padding: 0;
+  }
+  section.director .video{
+    height:22%;
+    width:100%;
+  }
+  #imagenes {
+    height: 39vh;
+  }
+  .col-two > p {
+    margin-bottom: $tfUno;
+  }
+
+  .col-three{
+    background-color: $colorE;
+  }
+
+  .footer.copy {
+    font-size: $tfO6;
+  }
+  .parrafo {
+      font-size: 1em;
+      padding: 1em;
+  }  
+  .navegacion{
+    margin-top:auto;
+  }
+
+
+}
+
+@media all and (max-width: 26em) {
+  header .coord {
+    @include aColumna;
+  }
+  header .coord .phone, header .coord .mail {
+    text-align: center;
+  }
+  div.enz {
+    padding: 1em 2em;
+  }
+  div.enz h3 {
+    font-size: 1.2em;
+  }
+  div.enz i {
+    font-size: 3em;
+  }
+  div.main {
+    height: 39vh;
+  }
+  .sprite.plano-moliere-zaragoza {
+      height: 220px;
+      width: 230px;
+  }  
+}
+
+@media all and (max-width: 22em) {
+  div.main {
+    height: 30vh;
+  }
+  #imagenes {
+    height: 30vh;
+  }
+}
