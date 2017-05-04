@@ -1,0 +1,168 @@
+/* line 1, C:/wamp/www/pruebamoliere/scss/aside.scss */
+aside {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  font-size: 1.3em;
+  padding-left: 1em;
+}
+
+/* line 8, C:/wamp/www/pruebamoliere/scss/aside.scss */
+aside h3::first-letter {
+  background-color: #c01f39;
+  color: #fff;
+  font-size: 1.6em;
+}
+
+/* line 13, C:/wamp/www/pruebamoliere/scss/aside.scss */
+aside h3 {
+  margin-top: 0.6em;
+}
+
+/* line 17, C:/wamp/www/pruebamoliere/scss/aside.scss */
+aside ul {
+  list-style: outside none none;
+}
+
+/* line 21, C:/wamp/www/pruebamoliere/scss/aside.scss */
+aside li {
+  border-bottom: 1px solid #ddd;
+  padding: 0.4em 0;
+}
+
+/* line 25, C:/wamp/www/pruebamoliere/scss/aside.scss */
+aside div:first-child {
+  margin-top: 2em;
+}
+
+/* line 28, C:/wamp/www/pruebamoliere/scss/aside.scss */
+aside .buscar input {
+  background-color: rgba(137, 138, 153, 0.1);
+  color: #777;
+  font-size: 0.8em;
+  width: 90%;
+}
+
+/* line 34, C:/wamp/www/pruebamoliere/scss/aside.scss */
+aside .flecha {
+  color: #898a99;
+  cursor: pointer;
+  font-size: 0.8em;
+  margin-left: -23px;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/* line 41, C:/wamp/www/pruebamoliere/scss/aside.scss */
+aside .flecha:hover {
+  color: #777;
+}
+
+/* line 45, C:/wamp/www/pruebamoliere/scss/aside.scss */
+aside a:hover {
+  text-shadow: 1px 1px 2px #c01f39;
+}
+
+/* line 48, C:/wamp/www/pruebamoliere/scss/aside.scss */
+section {
+  position: relative;
+}
+
+/* line 51, C:/wamp/www/pruebamoliere/scss/aside.scss */
+section .cruzada {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  left: 20%;
+  padding: 1em;
+  position: absolute;
+  width: 60%;
+  z-index: 200;
+}
+
+/* line 60, C:/wamp/www/pruebamoliere/scss/aside.scss */
+section .cruzada .entry {
+  color: #fff;
+}
+
+/* line 63, C:/wamp/www/pruebamoliere/scss/aside.scss */
+section .cruzada .entry:hover {
+  color: red;
+}
+
+/* line 66, C:/wamp/www/pruebamoliere/scss/aside.scss */
+section .cruzada .entry h3 {
+  color: white;
+  font-size: 1em;
+}
+
+/* line 70, C:/wamp/www/pruebamoliere/scss/aside.scss */
+section .cruzada .entry h3:hover {
+  color: #c01f39;
+}
+
+/* line 73, C:/wamp/www/pruebamoliere/scss/aside.scss */
+section .cruzada .entry .ladate {
+  color: white;
+  font-size: 0.6em;
+}
+
+/* line 77, C:/wamp/www/pruebamoliere/scss/aside.scss */
+section .cruzada .cierra {
+  position: absolute;
+  right: 0.1em;
+  top: 0.1em;
+}
+
+/* line 82, C:/wamp/www/pruebamoliere/scss/aside.scss */
+section .cruzada .cierra:hover {
+  color: #c01f39;
+}
+
+/* line 85, C:/wamp/www/pruebamoliere/scss/aside.scss */
+.tapando {
+  display: none;
+  height: 0;
+  width: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+/* line 96, C:/wamp/www/pruebamoliere/scss/aside.scss */
+.tapando.on {
+  display: block;
+  height: 100vh;
+  width: 100%;
+  z-index: 7;
+}
+
+/* line 102, C:/wamp/www/pruebamoliere/scss/aside.scss */
+.tapando > img {
+  background-image: url("http://cineymusica.es/otros/moliere/images/cargando.gif");
+  /*background-image: url("http://cineymusica.es/otros/framol/images/cargando.gif");*/
+  height: 20px;
+  left: 40%;
+  position: absolute;
+  top: 30%;
+  width: 20px;
+  z-index: 5;
+}
+
+@media all and (max-width: 80em) {
+  /* line 112, C:/wamp/www/pruebamoliere/scss/aside.scss */
+  aside div:first-child {
+    margin-top: 1em;
+  }
+}
+
+@media all and (max-width: 42em) {
+  /* line 117, C:/wamp/www/pruebamoliere/scss/aside.scss */
+  section, aside {
+    flex-basis: 100% !important;
+    margin: 0 1em;
+  }
+}
+
+/*# sourceMappingURL=../css/aside.map */

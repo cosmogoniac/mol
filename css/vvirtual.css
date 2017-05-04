@@ -1,0 +1,15 @@
+.vvirtual { background: url("../images/sprites/vvirtual.png") no-repeat top left; width: 160px; height: 111px; }
+
+.vvirtual.hall { background-position: 0 0; }
+
+.vvirtual.patio { background-position: 0 -121px; width: 165px; }
+
+.vvirtual.patio-mayores { background-position: 0 -242px; }
+
+.vvirtual.entrada-infantil { background-position: 0 -363px; }
+
+.vvirtual.aula { background-position: 0 -484px; }
+
+.vvirtual.otro-aula { background-position: 0 -605px; }
+
+.vvirtual.biblioteca { background-position: 0 -726px; }

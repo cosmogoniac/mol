@@ -1,0 +1,310 @@
+@import 'base';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto,Arial;
+}
+
+div#container > div:not(.copy) {
+  margin-bottom: $tfUno;
+}
+
+
+div.banda {
+  color: $colorE;
+  padding: $tfUno;
+}
+div.banda-iconos {
+  font-size: $tfUnDos;
+}
+div.banda-iconos div:hover a,div.banda-iconos div:hover{
+  @include sombraTexto;
+  color:$color3;
+}
+div.banda-iconos span {
+  margin-top: 10px;
+}
+div.banda-iconos div i {
+  text-align: center;
+}
+div.banda-iconos div {
+  padding: $tfUnDos 0;
+}
+div.banda .literal{
+  font-weight:bold;
+}
+div.enz {
+  border: 1px solid $colorE;
+  -ms-flex-preferred-size: 16%;
+      flex-basis: 16%;
+  padding: $tfDos $tfTres;
+  text-align: center;
+}
+div.enz i {
+  display: block;
+}
+div.enz.clack:hover h3{
+  color:$colorTema;
+}
+div.enz.clack:hover a i{
+    color: $color3;
+}
+div.espacio-logo {
+  text-align: center;
+}
+div.separacion{
+  padding:0 1em;
+}
+div.ladate {
+  font-size: $tfUnCuatro;
+}
+div.lasnews .news {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  padding: $tfUno $tfDos;
+}
+div.lasnews .news h3 {
+  color: $colorH3;
+  padding-top: $tfUno;
+}
+div.lasnews .news > *:not(.permalink) {
+  background-color: rgba(200, 200, 200, 0.2);
+  padding: $tfUno;
+}
+div.lasnews .news p {
+  font-size: $tfUnTres;
+  line-height: $tfUnCinco;
+}
+div.main {
+    border-top: 1px solid #eee;
+    padding: 8px;
+    position: relative;
+}
+div.tablon{
+  flex-flow:row wrap;
+}
+div.tablon .tbl {
+  border: 1px solid #aaa;
+  padding: $tfUno;
+}
+div.tablon div {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+figure.imagenes {
+  opacity:0;
+  height: 0;
+  text-align: center;
+  transition: opacity linear 0.5s;
+}
+figure.imagenes.actiu{
+  opacity:1;
+}
+figure.imagenes > img {
+  max-width: 98vw;
+  width:$cien100;
+}
+select.ciego {
+  display: none;
+}
+#imagenes {
+  height: 80vh;
+  overflow: hidden;
+  margin-top: 9em;
+}
+.avn .globo {
+  display: block;
+  text-align: center;
+}
+.avn .globo:nth-child(even) > a {
+  background-color: $colorH3hover;
+}
+.avn .globo a {
+  color: $colorE;
+  display: block;
+  padding: .2em;
+  font-size: $tfUnDos;
+  line-height: $tfUnCinco;
+}
+.avn .globo a:hover {
+  color: $negro;
+}
+.globo{
+  @include soloTransicion;
+}
+.globo a:hover{
+  // background-color: $color3;
+  color: $colorTema;
+  @include sombraCaja;
+}
+.globo a {
+  border-radius: $radioCirculo;
+  font-size: $tfO8;
+  padding: $tfUno;
+}
+.globo.gris a:hover {
+  color: $negro;
+}
+.globo.gris {
+  display: block;
+  padding: $tfDos 0 0;
+  text-align: center;
+}
+.globo.gris a {
+  background-color: $gris;
+  line-height: $tfDos;
+}
+.video{
+  flex-grow:1;
+  margin:0 1em;
+  height:300px;
+}
+.video iframe {  
+  height: $cien100;
+  width: 100%;
+}
+.vidcuad .cuadro {
+  -ms-flex-preferred-size: 22%;
+      flex-basis: 48%;
+}
+.vidcuad .cuadro .cd {
+  align-self: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 88em) {
+    div.enz{
+      padding:1em;
+    }
+    div.enz h3{
+      font-size:1.2em;
+    }
+    div.banda {
+      font-size: 1.6em;
+    }
+}
+@media all and (max-width: 80em) {
+    div.ladate{
+      font-size:1em;
+    }
+    div.lasnews .news{
+      flex-basis:40%;
+      padding:1em;
+    }
+    div.lasnews .news p{
+      font-size:1.1em;
+    }
+    div.lasnews .news h3 {
+      font-size: 1.4em;
+    }
+    div.lasnews .news > *:not(.permalink) {
+      padding: 0.3em 0.8em;
+  }
+}
+@media all and (max-width: 70em) {}
+@media all and (max-width: 62em) {}
+@media all and (max-width: 60em) {
+  div.tablon div {
+      flex-basis: 40%;
+  }
+  div.tablon div.avn {
+      flex-basis: 80%;
+      margin-top: 1em;
+  }  
+  div.tablon div.avn .globo{
+    margin-top:0.1em;
+  }
+
+}
+@media all and (max-width: 54em) {
+
+}
+@media all and (max-width: 48em) {
+   .globo{
+    margin-top:1em;
+    }
+}
+@media all and (max-width: 46em) {
+  div.banda .literal {
+    flex-basis: 60%;
+  }
+  div.banda-iconos {
+    font-size: 1em;
+  }
+ div.enz{
+    padding: auto;
+  }
+  div.enz h3 {
+      font-size: 1em;
+  }
+  div.banda-iconos div {
+    padding:1em;
+  }
+  div.enz i, div.banda-iconos div i {
+      font-size: 2em;
+  }
+  div.banda-iconos div span{
+    font-size:0.8em;
+  }
+  div.lasnews .news {
+      flex-basis: 80%;
+      padding: 0.4em;
+  }
+  div.tablon .tbl {
+      border: 1px solid #aaa;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1em;
+  }
+
+  #imagenes {
+      height: 262px;
+      margin-top: 2em;
+      overflow: hidden;
+  }
+
+}
+@media all and (max-width: 42em) {
+  div.banda {
+      font-size: 1.2em;
+  }
+}
+@media all and (max-width: 38em) {
+  div.tablon div {
+      flex-basis: 80%;
+      margin-top: 1em;
+  }
+
+  .vidcuad .cuadro{
+    flex-basis:100%;
+  }
+}
+@media all and (max-width: 26em) {
+  .sprite.plano-moliere-zaragoza {
+    height: 260px;
+    width: 292px;
+  }
+  .sprite.mision_laique-1,.sprite.accion-contra-hambre-2{
+    width:292px!important;
+  }
+ #imagenes {
+      height: 220px!important;
+  }
+}
+@media all and (max-width: 24em) {
+ #imagenes {
+      height: 190px!important;
+  }
+
+}
+@media all and (max-width: 22em) {
+  #imagenes {
+      height: 160px!important;
+  }
+}

@@ -1,0 +1,159 @@
+* { margin: 0; padding: 0; }
+
+body { font-family: Roboto,Arial; font-size: 1em; }
+
+a:hover { color: #fff; }
+
+a:link, a:visited, a:active { color: #333; text-decoration: none; -webkit-transition: all 0.5s ease; transition: all 0.5s ease; }
+
+div.arriba, .principal .first-level a:before { background-color: #c01f39; }
+
+div.header { background-color: #fff; }
+
+div.navegacion, footer, footer div, header, header .coord, header .social-links, nav.principal ul.first-level, nav.principal ul.first-level li:hover > ul, nav.principal ul.first-level { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+div.navegacion, footer, footer div, header .coord, header .social-links, nav.principal ul.first-level { -ms-flex-pack: distribute; justify-content: space-around; }
+
+div.arriba, .principal .first-level a:before { background-color: #c01f39; }
+
+div.header { background-color: #fff; }
+
+div.navegacion, footer, footer div, header, header .coord, header .social-links, nav.principal ul.first-level, nav.principal ul.first-level li:hover > ul, nav.principal ul.first-level { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+div.navegacion, footer, footer div, header .coord, header .social-links, nav.principal ul.first-level { -ms-flex-pack: distribute; justify-content: space-around; }
+
+div.arriba { border-radius: 50%; bottom: 2%; color: #fff; cursor: pointer; box-shadow: 0 0 7px 1px #000; padding: 0.6%; position: fixed; right: 2%; opacity: 0; opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -webkit-transition: all 0.5s ease-in-out 0s; transition: all 0.5s ease-in-out 0s; z-index: -1; }
+
+div.arriba:hover { background-color: #777; }
+
+div.header { box-shadow: 1px 1px 19px 1px black; position: fixed; top: 0; width: 100%; z-index: 4; }
+
+div.espacio-logo { text-align: center; }
+
+footer { background-color: #dddddd; margin-top: 2em; padding: 2em; }
+
+footer div, nav.principal ul.first-level li:hover > ul { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+header { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; background-color: #898a99; font-size: 0.8em; -ms-flex-line-pack: center; align-content: center; line-height: 3em; color: #fff; }
+
+header .coord { -ms-flex-preferred-size: 70%; flex-basis: 70%; }
+
+header .coord .phone { -ms-flex-preferred-size: 30%; flex-basis: 30%; text-align: right; }
+
+header .coord .mail { -ms-flex-preferred-size: 60%; flex-basis: 60%; }
+
+header .coord span i { padding-right: 0.4em; }
+
+header .social-links { -ms-flex-preferred-size: 30%; flex-basis: 30%; }
+
+h3 { color: #444; }
+
+hr { color: #c01f39; margin: 2em auto; width: 72%; }
+
+nav.principal, .sprite.flag-france, nav.reduciendo > * { -ms-flex-item-align: center; align-self: center; }
+
+nav.reduciendo, .cierre, .cruzada .cierra, .flecha, .enviar, .limpiar, .meses ul li { cursor: pointer; }
+
+nav.reduciendo, .cierre { cursor: pointer; }
+
+nav ul { list-style: none; z-index: 2; }
+
+nav.principal ul.first-level > li { border-right: 1px solid rgba(100, 100, 100, 0.6); margin-right: 2%; padding: 0 2%; }
+
+nav.principal ul.first-level li > ul { display: none; position: absolute; padding-top: 1em; }
+
+nav.principal ul.first-level li:hover > ul li { background-color: #000; border-bottom: 1px solid grey; color: #777; padding: 1em; }
+
+nav.principal ul.first-level li:hover > ul li a:hover { color: #fff; text-shadow: 0 1px 12px #fff; }
+
+nav.principal ul.second-level a { color: #777; -webkit-transition: all 0.5s ease; transition: all 0.5s ease; }
+
+nav.principal .first-level a:hover, nav.principal ul.first-level > li:hover { color: #c01f39; }
+
+nav.principal .first-level a, .permalink a:not(.nosign) { color: #333; display: inline-block; font-weight: bold; position: relative; }
+
+nav.principal .first-level a { font-weight: normal; }
+
+nav.principal .first-level a:before, .permalink a:not(.nosign):before { bottom: 0; content: ""; height: 3px; position: absolute; -webkit-transition: all 0.2s ease-in-out 0s; transition: all 0.2s ease-in-out 0s; width: 0; }
+
+nav.principal .first-level a:before { bottom: -10px; }
+
+nav.principal .first-level > li > a:hover:before, .permalink a:not(.nosign):hover:before { width: 100%; }
+
+nav.reduciendo { display: none; }
+
+.cierre { font-size: 2em; display: none; }
+
+.cd.clack div:hover { border-radius: 50%; box-shadow: 1px 1px 6px 5px black; cursor: pointer; }
+
+.col-two:hover { box-shadow: 1px 1px 17px 2px black; }
+
+.col-two:hover > a { color: #c01f39; text-shadow: 1px 1px 1px black; }
+
+.entera h1 { margin-top: 6em; flex-basis: 100%; text-align: center; }
+
+.footer { font-size: 1.5em; line-height: 3em; padding-left: 20%; }
+
+.footer.copy > p { color: white; text-shadow: 1px 1px 2px black; }
+
+.legend { color: #8d8374; font-family: Helvetica; margin-top: 0.4em; }
+
+.oculto { display: none; }
+
+.separacion { -ms-flex-preferred-size: 100%; flex-basis: 100%; font-size: 1.5em; }
+
+.separacion .lit { margin: 0 1em; }
+
+.separacion .lit span { color: #c01f39; margin-right: 0.5em; }
+
+.separacion .mid { border-top: 1px solid #c01f39; margin-top: 0.7em; }
+
+.sprite { background: url("../images/sprites/sprite.png") no-repeat top left; width: 110px; height: 110px; }
+
+.sprite.flag-france { background-position: 0 0; width: 25px; height: 15px; }
+
+.sprite.logo { background-position: 0 -25px; width: 328px; }
+
+.sprite.primaria-sm { background-position: 0 -145px; }
+
+.sprite.infantil-sm { background-position: 0 -265px; height: 112px; }
+
+.sprite.eso-sm { background-position: 0 -387px; }
+
+.sprite.bachiller-sm { background-position: 0 -507px; height: 109px; }
+
+.sprite.mision_laique-1 { background-position: 0 -626px; width: 300px; height: 152px; }
+
+.sprite.accion-contra-hambre-2 { background-position: 0 -788px; width: 300px; height: 112px; }
+
+.sprite.plano-moliere-zaragoza { background-position: 0 -910px; width: 350px; height: 263px; }
+
+.sprite.logo-min { background-position: 0 -2147px; width: 61px; height: 50px; }
+
+@media all and (max-width: 70em) { nav.principal { flex-grow: 1; }
+  nav.principal ul.first-level > li { margin-right: 0%; font-size: 0.8em; padding: 0 1%; } }
+
+@media all and (max-width: 60em) { div.arriba { font-size: 2em; } }
+
+@media all and (max-width: 50em) { div.espacio-logo { display: none; }
+  footer div:not(:first-child) { margin-top: 1em !important; }
+  header .coord, header .social-links { display: none !important; }
+  nav.principal { background-color: rgba(0, 0, 0, 0.7); color: #fff; display: none; height: 98vh; left: 0; overflow-y: auto; position: fixed; top: 0; width: 100%; }
+  nav.principal .cierre { color: #fff; display: block; padding: 3px; position: fixed; right: 1em; top: 0; z-index: 2; }
+  nav.principal ul.first-level { position: absolute; }
+  nav.principal .first-level a::before { bottom: 0; }
+  nav.principal ul.first-level > li { font-size: 0.8em; }
+  nav.principal ul.first-level li > ul { -moz-box-direction: normal; -moz-box-orient: vertical; flex-direction: column; background-color: black; display: block; padding-top: 0; position: relative; }
+  nav.reduciendo { background-color: #c01f39; color: #fff; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; height: 2em; position: fixed; left: 0; top: 0; width: 100%; display: flex; }
+  nav.principal ul.first-level { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+  nav.principal ul.first-level li > ul { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding-top: 0; position: relative; }
+  nav.principal .first-level a { color: white; }
+  nav.principal ul.first-level li > ul li { background-color: #000; border-bottom: 1px solid grey; color: #999; padding: 1em; }
+  .entera h1 { margin-top: 2em; }
+  .footer.copy { font-size: 0.6em; } }
+
+@media all and (max-width: 42em) { div.main { padding: 0; margin-bottom: 0 !important; } }
+
+@media all and (max-width: 26em) { .sprite.plano-moliere-zaragoza { background-position: 0 -1907px; width: 282px; height: 237px; }
+  .sprite.mision_laique-1-peq { background-position: 0 -1696px; width: 150px; height: 116px; }
+  .sprite.accion-contra-hambre-2-peq { background-position: 0 -1822px; width: 200px; height: 75px; } }

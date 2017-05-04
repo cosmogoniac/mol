@@ -1,0 +1,197 @@
+.selection{
+	display:none;
+}
+.menu {
+    margin-top: 4em;
+    display:none;
+    // opacity: 0;
+    // position: absolute;
+    transition: all 0.5s ease-in-out 0s;
+    z-index: 0;
+}
+.menu.active{
+  display:block;
+  // opacity:1;
+  margin-top:0;
+  z-index:1;
+}
+.menus .annee{
+    margin:0 2em;
+  }
+.menus .annee .menu .last{
+  background-color:transparent;
+}
+.menus .annee .mes.actif .last{
+  text-align:center;
+}
+.menus .parrafo{
+  margin-top:0;
+  margin-bottom:1em;
+}
+.menu ul{
+  list-style: inside none disc;
+  text-indent:1em;
+}
+.menu.active .sinadorno {
+    color: #666;
+    font-style: italic;
+    list-style: outside none none;
+    font-size:80%;
+}
+.menu.active .dia{
+  opacity:0;
+}
+.mois.activo .litermes {
+    border: 1px solid;
+    font-size:1.2em;
+    text-align:center;
+}
+.mois.activo .litermes .diames {
+    margin: 1em;
+}
+.menus .annee .mes .last:not(.festivo):hover::before{
+  content:"....Pulsa....";
+  color: #fff;
+  cursor:pointer;
+  font-style:italic;
+  font-size:70%;
+}
+.menus .annee .dia{
+  border-bottom:1px solid;
+  font-size:1em;
+}
+.menus .annee .dia.prendido>div:first-child{
+  color:#fff;
+}
+
+.menus .dosbloques .lesmenus {
+    flex-basis: 30%;
+    padding-left:10%;       
+}  
+
+.menus .dia{
+  border:0;
+}
+
+.menus .losmenus{
+  flex-basis:40%;
+  margin-left:1em;
+}
+.menus .oculto{
+  font-size:1em;
+}
+.menu {
+    margin-top: 4em;
+    // position: absolute;
+    z-index: 0;
+}
+.menu ul {
+    list-style: inside none disc;
+    text-indent: 1em;
+}
+.menu.active .dia {
+    opacity: 0;
+}
+.menus .losmenus {
+    flex-basis: 40%;
+    margin-left: 1em;
+}
+
+.menus .mois.activo {
+    display: block;
+    font-size: 1em;
+}
+
+.menus .dia {
+    border: 0 none;
+    font-size: 60%;
+}
+.menu.active .sinadorno {
+    color: #666666;
+    font-size: 80%;
+    font-style: italic;
+    list-style: outside none none;
+}
+.mois.activo .litermes {
+    border: 1px solid;
+    text-align: center;
+}
+
+.mois, .menus .oculto, .menus .annee .mes {
+    display: none;
+}
+
+.mois.activo .litermes .diames {
+    margin: 1em;
+}
+
+.mois.activo .litermes .diames{
+    color: #c01f39;
+}
+
+.menus .annee {
+    margin: 0 2em;
+}
+
+.elmes {
+    background-color: #366291;
+    color: white;
+    text-align: center;
+}
+
+.menus .annee .dia {
+    border-bottom: 1px solid;
+    font-size: 1em;
+}
+.dia > div:first-child {
+    flex-basis: 10%;
+    margin-right: 4%;
+    text-align: right;
+}
+.eldia {
+    flex-basis: 16%;
+}
+.menus .annee .dia.prendido > div:first-child {
+    color: #fff;
+}
+.mesActive, .menus .annee .mes .last:hover:not(.festivo), .dia.prendido > div:first-child, .dia > div:first-child:hover {
+    background-color: #c01f39;
+	cursor:pointer;
+}
+
+@media all and (max-width: 44em) {
+    .annee {
+      border-right: 0;
+      display:block;
+    }
+
+    .elmes{
+      flex-basis:100%;
+    }
+    .menus .losmenus {
+      font-size:0.8em;
+      height:200px;
+      margin-left:auto;
+    }
+    .mes{
+      border-right: 1px solid;
+    }
+    .menus .annee {
+        margin: auto!important;
+        order: -1;
+    }
+    .menus .annee .dia{
+      font-size:0.8em;
+    }
+
+    .menus .losmenus {
+      flex-basis: 100%;
+      font-size: 0.8em;
+    }
+}
+
+@media all and (max-width: 28em) {
+.menu.active {
+    font-size: 0.8em;
+}
+}

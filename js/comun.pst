@@ -1,0 +1,209 @@
+var alto;
+var haut;
+var header=document.querySelector("header");
+var arriba=document.querySelector(".arriba");
+var cierre=document.querySelector(".cierre");
+var reduce=document.querySelector("nav.reduciendo");
+var encabezado=document.querySelector(".header");
+var btn=document.querySelectorAll(".btn");
+var tapando=document.querySelector(".tapando");
+
+window.addEventListener("load",menu,false);
+
+function menu(){
+	if(window.innerWidth>736)
+		alto=header.clientHeight;
+	else
+		alto=32;
+	haut=encabezado.clientHeight;
+	if(cierre)
+		cierre.addEventListener("click",cierra,false);
+	if(reduce)
+		reduce.addEventListener("click",minimenu,false);
+	window.addEventListener("scroll",elScroll,false);
+	arriba.addEventListener("click",hastarriba,false);
+	var clack=document.querySelectorAll(".clack");
+	for(i in clack)
+		if(clack[i].tagName)
+			clack[i].addEventListener("click",enlinka,false);
+
+
+	for(i in btn)
+		if(btn[i].tagName)
+			btn[i].addEventListener("click",dalink,false);
+
+	// deshabDcho();
+	//busqueda
+		var buscar=document.querySelectorAll(".buscar input,.flecha");
+		if(!buscar[0])
+			return;
+		buscar[0].addEventListener("keyup",tecla,false);
+		buscar[1].addEventListener("click",tecla,false);
+	//videos
+		if(document.querySelector(".vidone"))
+			videos();
+}
+
+function videos(){
+	var seccion=document.querySelector("section").className;
+	var xml=new XMLHttpRequest();
+	var iframes=document.querySelectorAll(".vidone");
+	var ytb='https://www.youtube.com/embed/';
+	xml.open("GET","../videos.json",true);
+	xml.setRequestHeader("Content-type","text/xml;charset=UTF8");
+	xml.setRequestHeader("Connection","close");
+	xml.onreadystatechange=function(){
+	if(xml.readyState!=4 || xml.status!=200) return;
+		documento=JSON.parse(xml.responseText);
+		var i=0;
+		for(i in documento['videos'])
+		  if(documento['videos'][i].id==seccion)
+		    break;
+		for(a in documento['videos'][i].video){
+			iframes[a].src=ytb+documento['videos'][i].video[a];
+		}
+	}
+	xml.send(null);
+}
+
+function deshabDcho(){
+	var message="Sorry, right-click has been disabled";
+	function clickIE() {if (document.all) {(message);return false;}}
+	function clickNS(e) {if
+	(document.layers||(document.getElementById&&!document.all)) {
+	if (e.which==2||e.which==3) {(message);return false;}}}
+	if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+	else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+	document.oncontextmenu=new Function("return false");
+}
+
+function dalink(evt){
+	var enlace=evt.target.querySelector("a");
+	if(!enlace)
+		return;
+	location.href=enlace.href;
+}
+
+function enlinka(evt){
+	var enlace=evt.target.querySelector("a");
+	if(!enlace)
+		enlace=evt.target.parentNode.querySelector("a");
+	location.href=enlace.href;
+}
+
+function cierra(evt){
+	document.querySelector("nav.principal").style.display="none";
+	document.querySelector("nav.reduciendo").style.display="flex";
+	if(document.querySelector(".elprezi"))
+		document.querySelector(".elprezi").style.display="block";
+}
+
+function hastarriba(e){
+	window.scrollTo(0, 0);
+}
+
+function elScroll(e){
+    if(window.scrollY>=alto){
+		header.style.display="none";
+		arriba.style.zIndex="1";
+		arriba.style.opacity="1";
+    }else{
+    	// alert(window.scrollY);
+    	header.style.display="flex";
+    	arriba.style.zIndex="-1";
+    	arriba.style.opacity="0";
+	}
+}
+
+function minimenu(evt){
+	document.querySelector("nav.principal").style.display="flex";
+	if(document.querySelector(".elprezi"))
+		document.querySelector(".elprezi").style.display="none";
+	document.querySelector("nav.reduciendo").style.display="none";
+}
+
+//busqueda
+function tecla(evt){
+	if(evt.target.tagName!="SPAN"){
+		var tcl=(evt.which)?evt.which:evt.keyCode;
+		if(tcl!=13)return;
+	}
+	var cadena=document.querySelector(".buscar input");
+	cadena.value=trim(cadena.value);
+	if(cadena.value=="")return;
+	ajx(cadena.value);
+}
+
+function trim(cadena){
+	cadena=cadena.replace(/^\s*/g,"");
+	cadena=cadena.replace(/\s*$/g,"");
+	return cadena;
+}
+
+function ajx(busqueda){
+	var akhax=new XMLHttpRequest();
+	var titulo;
+	var fecha;
+	var dia;
+	var mes;
+	var anyo;
+	var meses=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+	tapando.className="tapando on";
+	document.body.style="overflow:hidden";
+	akhax.open("GET","http://localhost/liceo/wp-json/wp/v2/posts?search="+busqueda+"&categories=19",true);
+	akhax.setRequestHeader("Content-type","application/json;charset=UTF8");
+	akhax.setRequestHeader("Connection","close");
+	akhax.onreadystatechange=function(){
+	if(akhax.readyState!=4 || akhax.status!=200) return;
+		try{
+			tapando.querySelector("img").className="oculto";
+			var ar=JSON.parse(akhax.responseText);
+			var suma="";
+			for(i in ar){
+				titulo="<div class='entry'><a href='"+ar[i].link+"'><h3>"+ar[i].title.rendered+"</h3>";
+				fecha=new Date(ar[i].date);
+				dia=fecha.getDate();
+				mes=meses[fecha.getMonth()];
+				anyo=fecha.getFullYear();	
+				ladate="<span class='ladate'>"+dia+" "+mes+", "+anyo+"</span></a></div>";
+				suma+=titulo+ladate;
+			}
+			if(ar.length==0)
+				suma="<h3>Lo sentimos, su búsqueda no ha obtenido resultado.</h3>";
+			document.querySelector(".cruzada").innerHTML+=suma;
+			document.querySelector(".cruzada").style.display="block";
+			document.querySelector(".cruzada .cierra").addEventListener("click",closeSearch,false);
+		}catch(e){};
+		if(!ar)
+			alert(akhax.responseText);
+	};
+	akhax.send(null);
+}
+
+function closeSearch(evt){
+	tapando.querySelector("img").className="";
+	tapando.className="tapando";
+	document.body.style="overflow:auto";
+	document.querySelector(".cruzada").innerHTML="<span class='cierra'>X</span>";
+	document.querySelector(".cruzada").style.display="none";
+}
+
+function limpiaCar(cadena){
+   var specialChars = "!@#$^&%*()+=-[]\/{}|:<>?,.";
+   for (var i = 0; i < specialChars.length; i++) {
+       cadena= cadena.replace(new RegExp("\\" + specialChars[i], 'gi'), '');
+   }   
+   cadena = cadena.toLowerCase();
+   cadena = cadena.replace(/ /g,"_");
+   cadena = cadena.replace(/á/gi,"a");
+   cadena = cadena.replace(/à/gi,"a");
+   cadena = cadena.replace(/â/gi,"a");
+   cadena = cadena.replace(/è/gi,"e");
+   cadena = cadena.replace(/é/gi,"e");
+   cadena = cadena.replace(/í/gi,"i");
+   cadena = cadena.replace(/ó/gi,"o");
+   cadena = cadena.replace(/ô/gi,"o");
+   cadena = cadena.replace(/ú/gi,"u");
+   cadena = cadena.replace(/ñ/gi,"n");
+   return cadena;
+}

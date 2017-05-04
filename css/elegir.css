@@ -1,0 +1,72 @@
+/* line 1, C:/wamp/www/pruebamoliere/scss/elegir.scss */
+.razones {
+  counter-reset: li-counter;
+}
+
+/* line 4, C:/wamp/www/pruebamoliere/scss/elegir.scss */
+.razon {
+  border: 1px solid #c01f39;
+  color: #777;
+  flex-basis: 40%;
+  font-size: 1em;
+  padding: 2em;
+}
+
+/* line 11, C:/wamp/www/pruebamoliere/scss/elegir.scss */
+.razon h3 span::before {
+  content: counter(li-counter, decimal) " ";
+  counter-increment: li-counter;
+}
+
+/* line 15, C:/wamp/www/pruebamoliere/scss/elegir.scss */
+.razon h3 {
+  color: #333333;
+  font-size: 1.4em;
+}
+
+/* line 19, C:/wamp/www/pruebamoliere/scss/elegir.scss */
+.razon li {
+  list-style: inside none disc;
+  margin-top: 1em;
+}
+
+/* line 23, C:/wamp/www/pruebamoliere/scss/elegir.scss */
+.razon span {
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 1.4em;
+  margin: auto 0.6em auto auto;
+  text-align: center;
+  width: 43px;
+}
+
+@media all and (max-width: 80em) {
+  /* line 33, C:/wamp/www/pruebamoliere/scss/elegir.scss */
+  .razon h3 {
+    font-size: 1.1em;
+  }
+}
+
+@media all and (max-width: 76em) {
+  /* line 38, C:/wamp/www/pruebamoliere/scss/elegir.scss */
+  section {
+    margin-right: 2%;
+  }
+  /* line 41, C:/wamp/www/pruebamoliere/scss/elegir.scss */
+  section, .razon {
+    font-size: 1em;
+  }
+  /* line 45, C:/wamp/www/pruebamoliere/scss/elegir.scss */
+  .razones {
+    padding: 0 1em;
+  }
+}
+
+@media all and (max-width: 60em) {
+  /* line 51, C:/wamp/www/pruebamoliere/scss/elegir.scss */
+  .razon {
+    flex-basis: 100%;
+  }
+}
+
+/*# sourceMappingURL=../css/elegir.map */

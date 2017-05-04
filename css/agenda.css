@@ -1,0 +1,108 @@
+/* line 4, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.agenda .biparrafo > * {
+  margin: 1em;
+}
+
+/* line 7, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.meses {
+  flex-basis: 10%;
+}
+
+/* line 11, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.meses ul, .clases ul {
+  list-style: outside none none;
+}
+
+/* line 14, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.mostrar {
+  flex-grow: 1;
+}
+
+/* line 18, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.mostrar div {
+  opacity: 0;
+  display: none;
+  transition: all 1s ease 0s;
+}
+
+/* line 26, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.mostrar div.active {
+  display: block;
+  opacity: 1;
+}
+
+/* line 32, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.mostrar ul {
+  list-style: none;
+}
+
+/* line 36, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.mostrar li .tit {
+  font-weight: bold;
+}
+
+/* line 42, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.mostrar li {
+  margin-left: 1em;
+}
+
+/* line 46, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.meses ul {
+  list-style: outside none none;
+}
+
+/* line 50, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.mesActive {
+  background-color: #c01f39;
+  color: #fff !important;
+}
+
+/* line 55, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.meses ul li {
+  border: 1px solid #666666;
+  color: #666666;
+  flex: 1 1 30%;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+/* line 63, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.meses ul li:hover, .clases ul li:hover {
+  text-shadow: 0 0 3px #c01f39;
+}
+
+/* line 67, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+.mostrar {
+  position: relative;
+  overflow: auto;
+}
+
+@media all and (max-width: 46em) {
+  /* line 74, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+  .mostrar {
+    flex-basis: 60%;
+  }
+}
+
+@media all and (max-width: 32em) {
+  /* line 80, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+  .meses ul li {
+    font-size: 1em;
+  }
+  /* line 84, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+  .meses, .mostrar {
+    flex-basis: 100%;
+  }
+  /* line 87, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+  .meses ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  /* line 92, C:/wamp/www/pruebamoliere/scss/agenda.scss */
+  .meses ul li {
+    font-size: 0.8em;
+  }
+}
+
+/*# sourceMappingURL=../css/agenda.map */

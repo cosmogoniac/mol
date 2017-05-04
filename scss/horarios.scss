@@ -1,0 +1,103 @@
+.biparrafo {
+    display: flex;
+    flex-basis: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    line-height: 2em;
+    margin: 0 2em;
+}
+.clases ul {
+    list-style: outside none none;
+}
+.clases ul li {
+    border: 1px solid #666666;
+    color: #666666;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+.clases ul li:hover{
+	cursor: pointer;
+  text-shadow:0 0 3px #c01f39;
+}
+.horarios{
+	flex-grow:1;
+}
+.horario .clases {
+    flex-basis: 45%;
+    margin-top:2em;
+}
+
+.horario .clases ul {
+    border: 1px solid #666666;
+    list-style: outside none none;
+}
+.horario .clases ul li {
+    border-bottom: 1px solid #666666;
+    margin-bottom: 0;
+}
+.horas {
+    border-bottom: 1px solid transparent;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    opacity: 0.2;
+    transition: all 0.2s ease 0s;
+}
+.horas.active {
+    border-bottom: 1px solid #c01f39;
+    opacity:1;
+}
+
+.mesActive {
+    background-color: #c01f39;
+    color: #fff !important;
+}
+.perenne {
+    flex-basis: 40%;
+    display: flex;
+    flex-flow:row wrap;
+    flex-grow:1;
+}
+.perenne > span {
+    text-align: right;
+    flex-grow:1;
+}
+.tresColumnas {
+    flex-grow: 1;
+    text-align: right;
+}
+.tresColumnas > span:first-child::after {
+    content: " - ";
+}
+
+@media all and (max-width: 64em) {
+    .clases ul {
+        font-size:0.8em;
+    }
+    .horario .clases{
+        flex-basis:80%;
+        margin-bottom:1em;
+    }
+    .tresColumnas {
+        font-size:0.9em;
+    }
+    .biparrafo.up{
+        margin:0;
+    }
+}
+
+@media all and (max-width: 62em) {
+    .clases.down{
+        display:none;
+    }
+    .horario .up .clases {
+        flex-basis: 100%;
+        // margin: 1em;
+        order: -1;
+    }
+    .parrafo > p{
+        margin-top:0;
+    }
+}
+
+

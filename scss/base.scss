@@ -1,0 +1,298 @@
+$tfCuatro:4em;
+$tfTres:3em;
+$tfDos:2em;
+$tfUno:1em;
+$tfUnOcho:1.8em;
+$tfUnSeis:1.6em;
+$tfUnCinco:1.5em;
+$tfUnCuatro:1.4em;
+$tfUnTres:1.3em;
+$tfUnDos:1.2em;
+$tfUnUno:1.2em;
+$tfO8:0.8em;
+$tfO6:0.6em;
+$tfO5:0.5em;
+
+$miniCab:#898a99;
+$colorFofito:#f0f0f0;
+$colorTema:#c01f39;
+$colorE:#eee;
+$colorB:#bbb;
+$color6:#666666;
+$color3:#333333;
+$colorH3hover:#777;
+$blanco:#fff;
+$gris:#808080;
+$negro:#000;
+$colorH3:#444;
+$hover:#444;
+
+$radioCirculo:100px;
+
+$cien100:100%;
+$cien50:50%;
+
+$pos1:10;
+$pos2:9;
+$pos3:8;
+$pos4:7;
+$pos5:6;
+$pos6:5;
+$pos7:4;
+$pos8:3;
+$pos9:2;
+$pos10:1;
+
+@mixin sombraArriba{
+	box-shadow: 0 0 7px 1px #000;
+}
+
+@mixin sombraCaja{
+	box-shadow: 1px 1px 19px 1px black;
+}
+@mixin sombraTexto{
+	text-shadow:0 1px 12px black;
+}
+@mixin sombraTBlanca{
+	text-shadow:0 1px 12px $blanco;
+}
+
+@mixin sombraBlanco{
+   color: white;
+   text-shadow: 1px 1px 2px black;
+}
+
+@mixin transicion1{
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+@mixin transicion3{
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-webkit-transition: opacity linear 0.2s;
+	-moz-transition: opacity linear 0.2s;
+	-o-transition: opacity linear 0.2s;
+	-ms-transition: opacity linear 0.2s;
+}
+
+@mixin transicionO5{
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+@mixin transicionO2{
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+@mixin soloTransicion{
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+@mixin aColumna{
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;	
+}
+
+@mixin ocupaTodo{
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+}
+
+div.banda .literal,header .coord,section.inscripciones,section.director,section.titulos,.somos,section.metodo,section.idiomas,section.horario,
+section.organigrama,section.calendrier,section.menus,section.actividades,section.libros,section.contacto,section.agenda,section.frances
+{
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+}
+
+div.enz,div.banda-iconos div,div.arriba,a:hover,.clack,.direccion,nav.reduciendo,.cierre,.cruzada .cierra,.flecha,.enviar,.limpiar,.meses ul li,
+.horarios .clases ul li,.horario .clases ul li,.menus .annee .mes .dia .last,.dia > div:first-child:hover,div.btn
+{
+  cursor:pointer;
+}
+
+body,.menus .annee .mes
+{
+	font-size:$tfUno;
+}
+
+.cierre,div.banda
+{
+	font-size:$tfDos;
+}
+
+
+div.lasnews .news h3
+{
+	font-size: $tfUnOcho;
+}
+
+div.enz i,div.banda-iconos div i
+{
+	font-size:$tfCuatro;
+}
+
+
+div.tablon .tbl
+{
+  font-size: $tfUnCuatro;
+}
+
+
+div.lasnews .news p
+{
+	font-size:$tfO8;
+}
+
+div.enz i,div.ladate,.principal .first-level a:hover, .permalink a:not(.nosign):hover,nav.principal ul.first-level > li:hover,.globo a,
+.entry a:hover,.mois.activo .litermes .diames,.razon li a
+{
+	color: $colorTema;
+}
+div.arriba,div.banda,div.banda-iconos,.principal .first-level a:before, .permalink a:not(.nosign):before,.avn .globo:nth-child(odd) > a,.btn,
+.razon span,.enviar,.limpiar,.mesActive,.menus .annee .mes .last:not(.festivo):hover,.dia.prendido > div:first-child,.dia > div:first-child:hover
+{
+  background-color: $colorTema;
+}
+
+.globo a,div.header,
+{
+  background-color: $blanco;
+}
+
+.globo.gris a,div.arriba,div.banda-iconos,div.banda-iconos a,.avn .globo:nth-child(even) > a,.avn .globo:nth-child(odd) > a,header,
+header .social-links a:hover,.razon span
+{
+	color: $blanco;
+}
+
+.razon li a:hover{
+  color:$negro;
+}
+.mois,.menus .oculto,.menus .annee .mes
+{
+  display:none;
+}
+
+
+div#container,div.banda,div.banda-iconos,div.banda-iconos div,div.enlaces,div.navegacion,div.noticias .lasnews,.news,div.lasnews .news,div.separacion,
+div.tablon,footer,footer div,header,header .coord,header .social-links,nav.principal ul.first-level,nav.principal ul.first-level li:hover > ul,.avn,
+.footer,.vidcuad,.vidcuad .cuadro,nav.principal ul.first-level,.somos,.statis,.tabla .tres,.botones,.entera,form.inscripcion,section.inscripciones,
+.biparrafo,.envio,.inscription,form.inscripcion div.alumno, form.inscripcion div.progenitor,section.director,.razones,.perenne,.menus .dosbloques,
+.menus,.menus .annee .mes.actif,section.horario,.menus .dia,.menus .dosbloques, .menus, .menus .annee .mes.actif,.mes.actif,section .botones,
+.triparrafo,section.rutasautobus
+{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+form.inscripcion,.parrafo.inscription,.separacion,.biparrafo
+{
+	@include ocupaTodo;
+}
+
+div#container,div.banda-iconos div,.news,div.lasnews .news,footer div,nav.principal ul.first-level li:hover > ul,.avn,form.inscripcion div.alumno, form.inscripcion div.progenitor
+
+{
+  @include aColumna;
+}
+div.banda,div.banda-iconos,div.enlaces,div.navegacion,div.noticias .lasnews,div.tablon,footer,footer div,header .coord,header .social-links,
+nav.principal ul.first-level,.avn,.vidcuad,.vidcuad .cuadro,.somos,.statis,.botones,form.inscripcion,.biparrafo,.inscription,.razones,.perenne,
+.menus .dia,section .botones,.biparrafo,.triparrafo
+{
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.lasnews .news,header,section.menus,section.menus
+{
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+div.banda-iconos,div.noticias .lasnews div.tablon,footer,.vidcuad .cuadro,div.enlaces,.vidcuad,div.banda,.somos,.statis,.entera,form.inscripcion,
+section.inscripciones,.envio,.inscription,section.director,.razones,.biparrafo,.idiomas .botones,.menus,section.menus,div.lasnews,
+section.horario,section.calendrier .annee,section .botones,.separacion,.triparrafo,section.rutasautobus
+{
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+}
+
+div.banda > span,nav.principal,.sprite.flag-france,nav.reduciendo > *
+{
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+figure.actiu,.direccion:hover,.horas.active,.menu.active
+{
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.menu
+{
+  @include transicion1;
+}
+.menu:nth-child(odd),
+{
+  -ms-flex-item-align: flex-start;
+      align-self: flex-start;
+}
+.menus .dosbloques{
+  -webkit-align-content:flex-start;
+  align-content:flex-start;
+}
+.meses ul li
+{
+  @include transicionO2;
+}
+
+
+.direccion,.enz.clack a i, .enz.clack h3,header .social-links a,.enviar,.limpiar,.menus .annee .mes .last,.dia > div:first-child:hover,div.btn
+{
+	@include transicionO5;
+}
+
+.news,.news > *:not(.permalink),div.lasnews .news,div.enz,form.inscripcion div,.parrafo.inscripcion,section.titulos,
+.director .parrafo,section.metodo,section.idiomas,section.horario,.perenne,.tresColumnas,.perenne > span,.horarios,.biparrafo .parrafo,
+.menus .activo,section.agenda,section.frances,.menus .annee,.menus .dia,.menus .annee,.separacion .mid
+{
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+@media all and (max-width: 44em) {
+  section.menus{
+    -ms-flex-item-align: center;
+    align-self:start;
+  }
+  section.menus .dia *:last-child,section.menus .dia *:nth-child(2),section.menus .dia.nohab {
+        display: none!important;
+  }
+  section.calendrier,.mes.actif{
+    @include ocupaTodo;
+  }
+
+  .mes
+  {
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+  }
+
+  .mes.actif{
+      -ms-flex-flow: row wrap!important;
+      flex-flow: row wrap!important;
+  }
+
+  }

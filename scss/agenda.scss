@@ -1,0 +1,96 @@
+section.agenda{
+	// position: relative;
+}
+.agenda .biparrafo > * {
+    margin: 1em;
+}
+.meses {
+    flex-basis: 10%;
+}
+
+.meses ul, .clases ul {
+    list-style: outside none none;
+}
+.mostrar {
+    flex-grow: 1;
+}
+
+.mostrar div {
+    opacity: 0;
+    display:none;
+    // position: absolute;
+    // top: 100px;
+    transition: all 1s ease 0s;
+}
+
+.mostrar div.active {
+    display: block;
+    opacity: 1;
+    // top: 0;
+}
+
+.mostrar ul{
+    list-style: none;
+}
+
+.mostrar li .tit{
+    font-weight:bold;
+}
+
+.mostrar li span:not(.tit)::before {
+}
+.mostrar li{
+    margin-left: 1em;
+}
+
+.meses ul {
+    list-style: outside none none;
+}
+
+.mesActive{
+  background-color: #c01f39;
+  color: #fff!important;
+}
+
+.meses ul li{
+    border: 1px solid #666666;
+    color: #666666;
+    flex: 1 1 30%;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.meses ul li:hover,.clases ul li:hover{
+  text-shadow:0 0 3px rgb(192, 31, 57);
+}
+
+.mostrar{
+	position: relative;
+	overflow:auto;
+}
+
+
+@media all and (max-width: 46em) {
+    .mostrar{
+        flex-basis:60%;
+    }
+}
+
+@media all and (max-width: 32em) {
+    .meses ul li{
+        // flex-basis:15%;
+        font-size:1em;
+    }
+    .meses,.mostrar{
+        flex-basis:100%;
+    }
+    .meses ul{
+        display:flex;
+        flex-flow:row wrap;
+        justify-content:space-around;
+    }
+    .meses ul li{
+        font-size:0.8em;
+        // flex-basis:18%;
+    }
+}

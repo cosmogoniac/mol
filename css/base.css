@@ -1,0 +1,61 @@
+div.banda .literal, header .coord, section.inscripciones, section.director, section.titulos, .somos, section.metodo, section.idiomas, section.horario, section.organigrama, section.calendrier, section.menus, section.actividades, section.libros, section.contacto, section.agenda, section.frances { -ms-flex-preferred-size: 68%; flex-basis: 68%; }
+
+div.enz, div.banda-iconos div, div.arriba, a:hover, .clack, .direccion, nav.reduciendo, .cierre, .cruzada .cierra, .flecha, .enviar, .limpiar, .meses ul li, .horarios .clases ul li, .horario .clases ul li, .menus .annee .mes .dia .last, .dia > div:first-child:hover, div.btn { cursor: pointer; }
+
+body, .menus .annee .mes { font-size: 1em; }
+
+.cierre, div.banda { font-size: 2em; }
+
+div.lasnews .news h3 { font-size: 1.8em; }
+
+div.enz i, div.banda-iconos div i { font-size: 4em; }
+
+div.tablon .tbl { font-size: 1.4em; }
+
+div.lasnews .news p { font-size: 0.8em; }
+
+div.enz i, div.ladate, .principal .first-level a:hover, .permalink a:not(.nosign):hover, nav.principal ul.first-level > li:hover, .globo a, .entry a:hover, .mois.activo .litermes .diames, .razon li a { color: #c01f39; }
+
+div.arriba, div.banda, div.banda-iconos, .principal .first-level a:before, .permalink a:not(.nosign):before, .avn .globo:nth-child(odd) > a, .btn, .razon span, .enviar, .limpiar, .mesActive, .menus .annee .mes .last:not(.festivo):hover, .dia.prendido > div:first-child, .dia > div:first-child:hover { background-color: #c01f39; }
+
+.globo a, div.header { background-color: #fff; }
+
+.globo.gris a, div.arriba, div.banda-iconos, div.banda-iconos a, .avn .globo:nth-child(even) > a, .avn .globo:nth-child(odd) > a, header, header .social-links a:hover, .razon span { color: #fff; }
+
+.razon li a:hover { color: #000; }
+
+.mois, .menus .oculto, .menus .annee .mes { display: none; }
+
+div#container, div.banda, div.banda-iconos, div.banda-iconos div, div.enlaces, div.navegacion, div.noticias .lasnews, .news, div.lasnews .news, div.separacion, div.tablon, footer, footer div, header, header .coord, header .social-links, nav.principal ul.first-level, nav.principal ul.first-level li:hover > ul, .avn, .footer, .vidcuad, .vidcuad .cuadro, nav.principal ul.first-level, .somos, .statis, .tabla .tres, .botones, .entera, form.inscripcion, section.inscripciones, .biparrafo, .envio, .inscription, form.inscripcion div.alumno, form.inscripcion div.progenitor, section.director, .razones, .perenne, .menus .dosbloques, .menus, .menus .annee .mes.actif, section.horario, .menus .dia, .menus .dosbloques, .menus, .menus .annee .mes.actif, .mes.actif, section .botones, .triparrafo, section.rutasautobus { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+form.inscripcion, .parrafo.inscription, .separacion, .biparrafo { -ms-flex-preferred-size: 100%; flex-basis: 100%; }
+
+div#container, div.banda-iconos div, .news, div.lasnews .news, footer div, nav.principal ul.first-level li:hover > ul, .avn, form.inscripcion div.alumno, form.inscripcion div.progenitor { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+div.banda, div.banda-iconos, div.enlaces, div.navegacion, div.noticias .lasnews, div.tablon, footer, footer div, header .coord, header .social-links, nav.principal ul.first-level, .avn, .vidcuad, .vidcuad .cuadro, .somos, .statis, .botones, form.inscripcion, .biparrafo, .inscription, .razones, .perenne, .menus .dia, section .botones, .biparrafo, .triparrafo { -ms-flex-pack: distribute; justify-content: space-around; }
+
+div.lasnews .news, header, section.menus, section.menus { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+div.banda-iconos, div.noticias .lasnews div.tablon, footer, .vidcuad .cuadro, div.enlaces, .vidcuad, div.banda, .somos, .statis, .entera, form.inscripcion, section.inscripciones, .envio, .inscription, section.director, .razones, .biparrafo, .idiomas .botones, .menus, section.menus, div.lasnews, section.horario, section.calendrier .annee, section .botones, .separacion, .triparrafo, section.rutasautobus { -ms-flex-flow: row wrap; flex-flow: row wrap; }
+
+div.banda > span, nav.principal, .sprite.flag-france, nav.reduciendo > * { -ms-flex-item-align: center; align-self: center; }
+
+figure.actiu, .direccion:hover, .horas.active, .menu.active { opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+
+.menu { opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -webkit-transition: all 0.5s ease-in-out 0s; transition: all 0.5s ease-in-out 0s; }
+
+.menu:nth-child(odd) { -ms-flex-item-align: flex-start; align-self: flex-start; }
+
+.menus .dosbloques { -webkit-align-content: flex-start; align-content: flex-start; }
+
+.meses ul li { -webkit-transition: all 0.2s ease; transition: all 0.2s ease; }
+
+.direccion, .enz.clack a i, .enz.clack h3, header .social-links a, .enviar, .limpiar, .menus .annee .mes .last, .dia > div:first-child:hover, div.btn { -webkit-transition: all 0.5s ease; transition: all 0.5s ease; }
+
+.news, .news > *:not(.permalink), div.lasnews .news, div.enz, form.inscripcion div, .parrafo.inscripcion, section.titulos, .director .parrafo, section.metodo, section.idiomas, section.horario, .perenne, .tresColumnas, .perenne > span, .horarios, .biparrafo .parrafo, .menus .activo, section.agenda, section.frances, .menus .annee, .menus .dia, .menus .annee, .separacion .mid { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+
+@media all and (max-width: 44em) { section.menus { -ms-flex-item-align: center; align-self: start; }
+  section.menus .dia *:last-child, section.menus .dia *:nth-child(2), section.menus .dia.nohab { display: none !important; }
+  .mes.actif { -ms-flex-preferred-size: 100%; flex-basis: 100%; }
+  .mes { -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0; }
+  .mes.actif { -ms-flex-flow: row wrap !important; flex-flow: row wrap !important; } }
